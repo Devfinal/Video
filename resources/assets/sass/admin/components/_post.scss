@@ -1,0 +1,11 @@
+.media-previews {
+  position: relative;
+
+  &.bordered {
+    border: dashed 2px rgba(0, 0, 0, .2)
+  }
+
+  .loader {
+    z-index: 9999;
+  }
+}

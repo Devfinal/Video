@@ -1,0 +1,53 @@
+.model-list {
+  .card {
+    margin-bottom: 0;
+    border: 0;
+
+    &:last-child {
+      margin-bottom: $card-spacer-y;
+    }
+
+    &:hover {
+      .card-block:before {
+        opacity: 1;
+      }
+
+      .card-title {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  }
+
+  .card-block {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+
+    &:before {
+      content: "";
+      background-color: rgba(0, 0, 0, .4);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      transition: opacity .25s ease;
+    }
+  }
+
+  .card-header {
+    padding: ($spacer-y / 2) $spacer-x;
+  }
+
+  .card-title {
+    font-size: 3em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, .4);
+    padding: .5em 0;
+    transform: scale(10);
+    opacity: 0;
+    transition: transform .25s ease, opacity .25s ease;
+  }
+}

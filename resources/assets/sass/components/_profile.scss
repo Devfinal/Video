@@ -1,0 +1,20 @@
+.profile-header {
+  .card-block {
+    position: relative;
+  }
+
+  .cover-placeholder {
+    background-color: $brand-primary;
+    height: 12em;
+  }
+
+  .profile-image {
+    height: 5em;
+    margin-top: -3em;
+
+    @include media-breakpoint-up(lg) {
+      height: 8em;
+      margin-top: -6em;
+    }
+  }
+}

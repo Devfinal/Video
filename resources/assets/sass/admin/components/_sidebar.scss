@@ -1,0 +1,165 @@
+.sidebar {
+    border-right: $card-border-width solid $card-border-color;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transform: translateX(-$sidebar-width);
+    transition: width $transition-duration $transition-timing, transform $transition-duration $transition-timing;
+    width: $sidebar-width;
+    z-index: 1000;
+
+    @include media-breakpoint-down(sm) {
+        transform: translateX(-$sidebar-width) translateY($navbar-height);
+    }
+
+    .sidebar-collapsed & {
+        @include media-breakpoint-up(sm) {
+            width: $sidebar-collapsed-width;
+            transform: translateX(-$sidebar-collapsed-width);
+        }
+    }
+
+    .sidebar-visible & {
+        @include media-breakpoint-up(sm) {
+            transform: translateX(0);
+        }
+    }
+
+    .sidebar-open & {
+        @include media-breakpoint-down(xs) {
+            transform: translateX(0) translateY($navbar-height);
+        }
+    }
+
+    .sidebar-header {
+        overflow: hidden;
+        white-space: nowrap;
+        padding: $navbar-padding-y $navbar-padding-y;
+
+        .navbar-nav {
+            height: 100%;
+            width: 100%;
+
+            .navbar-brand {
+                align-items: center;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                width: 100%;
+            }
+        }
+
+        .logo {
+            opacity: 1;
+            transition: opacity .25s ease;
+
+            .sidebar-collapsed & {
+                @include media-breakpoint-up(sm) {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+
+    .sidebar-content {
+        max-height: calc(100% - #{($navbar-height * 2) + 144});
+        overflow-x: hidden;
+        overflow-y: auto;
+        white-space: nowrap;
+
+        @include media-breakpoint-down(sm) {
+            max-height: calc(100% - #{$navbar-height + 144});
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .navbar {
+            padding-left: 0;
+            padding-right: 0;
+
+            .nav-item {
+                float: none;
+                margin: 0;
+
+                .nav-link {
+                    padding-left: $navbar-padding-x;
+                    padding-right: $navbar-padding-x;
+
+                    &.active {
+                        background-color: $brand-primary;
+                    }
+
+                    i {
+                        margin-right: .5rem;
+                        transition: margin-right .25s ease;
+
+                        .sidebar-collapsed & {
+                            @include media-breakpoint-up(sm) {
+                                margin-right: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .cart {
+            position: relative;
+
+            .card-header i {
+                transition: margin-right .25s ease;
+
+                .sidebar-collapsed:not(.sidebar-open) & {
+                    margin-right: 1em;
+                }
+            }
+
+            .cart-items,
+            .card-footer {
+                .sidebar-collapsed:not(.sidebar-open) & {
+                    display: none;
+                }
+            }
+
+            .link-wrapper {
+                display: none;
+
+                .sidebar-collapsed:not(.sidebar-open) & {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .sidebar-footer {
+        border-top: $card-border-width solid $card-border-color;
+        bottom: 0;
+        height: $navbar-height;
+        position: absolute;
+        width: 100%;
+
+        .navbar-nav {
+            height: 100%;
+            width: 100%;
+
+            .sidebar-collapse-button {
+                align-items: center;
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                width: 100%;
+
+                &:after {
+                    content: "\00AB";
+
+                    .sidebar-collapsed & {
+                        @include media-breakpoint-up(sm) {
+                            content: "\00BB";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,2984 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/home/kjs/site/bofh',
+5 verbose install   [ 'animate.css',
+5 verbose install     'async',
+5 verbose install     'flickity',
+5 verbose install     'js-cookie',
+5 verbose install     'sortablejs',
+5 verbose install     'tether',
+5 verbose install     'bootstrap',
+5 verbose install     'gulp',
+5 verbose install     'jquery',
+5 verbose install     'laravel-elixir',
+5 verbose install     'laravel-elixir-vue-2',
+5 verbose install     'laravel-elixir-webpack-official',
+5 verbose install     'lodash',
+5 verbose install     'vue',
+5 verbose install     'vue-resource' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping flickity@^2.0.5 /home/kjs/site/bofh
+9 verbose already installed skipping animate.css@^3.5.2 /home/kjs/site/bofh
+10 verbose already installed skipping async@^2.1.4 /home/kjs/site/bofh
+11 verbose already installed skipping js-cookie@^2.1.3 /home/kjs/site/bofh
+12 verbose already installed skipping sortablejs@^1.5.0-rc1 /home/kjs/site/bofh
+13 verbose already installed skipping tether@^1.3.7 /home/kjs/site/bofh
+14 verbose already installed skipping bootstrap@4.0.0-alpha.5 /home/kjs/site/bofh
+15 verbose already installed skipping gulp@^3.9.1 /home/kjs/site/bofh
+16 verbose already installed skipping jquery@^3.1.0 /home/kjs/site/bofh
+17 verbose cache add [ 'laravel-elixir@^6.0.0-11', null ]
+18 verbose cache add name=undefined spec="laravel-elixir@^6.0.0-11" args=["laravel-elixir@^6.0.0-11",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'laravel-elixir@^6.0.0-11',
+19 verbose parsed url   path: 'laravel-elixir@^6.0.0-11',
+19 verbose parsed url   href: 'laravel-elixir@^6.0.0-11' }
+20 verbose cache add name="laravel-elixir" spec="^6.0.0-11" args=["laravel-elixir","^6.0.0-11"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^6.0.0-11',
+21 verbose parsed url   path: '^6.0.0-11',
+21 verbose parsed url   href: '^6.0.0-11' }
+22 verbose addNamed [ 'laravel-elixir', '^6.0.0-11' ]
+23 verbose addNamed [ null, '>=6.0.0-11 <7.0.0-0' ]
+24 verbose cache add [ 'laravel-elixir-webpack-official@^1.0.2', null ]
+25 verbose cache add name=undefined spec="laravel-elixir-webpack-official@^1.0.2" args=["laravel-elixir-webpack-official@^1.0.2",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'laravel-elixir-webpack-official@^1.0.2',
+26 verbose parsed url   path: 'laravel-elixir-webpack-official@^1.0.2',
+26 verbose parsed url   href: 'laravel-elixir-webpack-official@^1.0.2' }
+27 verbose cache add name="laravel-elixir-webpack-official" spec="^1.0.2" args=["laravel-elixir-webpack-official","^1.0.2"]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: '^1.0.2',
+28 verbose parsed url   path: '^1.0.2',
+28 verbose parsed url   href: '^1.0.2' }
+29 verbose addNamed [ 'laravel-elixir-webpack-official', '^1.0.2' ]
+30 verbose addNamed [ null, '>=1.0.2-0 <2.0.0-0' ]
+31 verbose cache add [ 'laravel-elixir-vue-2@^0.2.0', null ]
+32 verbose cache add name=undefined spec="laravel-elixir-vue-2@^0.2.0" args=["laravel-elixir-vue-2@^0.2.0",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'laravel-elixir-vue-2@^0.2.0',
+33 verbose parsed url   path: 'laravel-elixir-vue-2@^0.2.0',
+33 verbose parsed url   href: 'laravel-elixir-vue-2@^0.2.0' }
+34 verbose cache add name="laravel-elixir-vue-2" spec="^0.2.0" args=["laravel-elixir-vue-2","^0.2.0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '^0.2.0',
+35 verbose parsed url   path: '^0.2.0',
+35 verbose parsed url   href: '^0.2.0' }
+36 verbose addNamed [ 'laravel-elixir-vue-2', '^0.2.0' ]
+37 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+38 verbose already installed skipping lodash@^4.16.2 /home/kjs/site/bofh
+39 silly lockFile 0a1a54ec-laravel-elixir-6-0-0-11 laravel-elixir@^6.0.0-11
+40 verbose lock laravel-elixir@^6.0.0-11 /home/kjs/.npm/0a1a54ec-laravel-elixir-6-0-0-11.lock
+41 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+42 verbose lock laravel-elixir-webpack-official@^1.0.2 /home/kjs/.npm/60cfa36d-el-elixir-webpack-official-1-0-2.lock
+43 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+44 verbose lock laravel-elixir-vue-2@^0.2.0 /home/kjs/.npm/a11fa157-laravel-elixir-vue-2-0-2-0.lock
+45 verbose already installed skipping vue@^2.0.1 /home/kjs/site/bofh
+46 verbose already installed skipping vue-resource@^1.0.3 /home/kjs/site/bofh
+47 silly addNameRange { name: 'laravel-elixir',
+47 silly addNameRange   range: '>=6.0.0-11 <7.0.0-0',
+47 silly addNameRange   hasData: false }
+48 silly addNameRange { name: 'laravel-elixir-webpack-official',
+48 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+48 silly addNameRange   hasData: false }
+49 silly addNameRange { name: 'laravel-elixir-vue-2',
+49 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+49 silly addNameRange   hasData: false }
+50 verbose url raw laravel-elixir
+51 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-elixir' ]
+52 verbose url resolved https://registry.npmjs.org/laravel-elixir
+53 info trying registry request attempt 1 at 04:49:45
+54 verbose etag "5854a843-50814"
+55 http GET https://registry.npmjs.org/laravel-elixir
+56 verbose url raw laravel-elixir-webpack-official
+57 verbose url resolving [ 'https://registry.npmjs.org/',
+57 verbose url resolving   './laravel-elixir-webpack-official' ]
+58 verbose url resolved https://registry.npmjs.org/laravel-elixir-webpack-official
+59 info trying registry request attempt 1 at 04:49:45
+60 verbose etag "58404d31-449f"
+61 http GET https://registry.npmjs.org/laravel-elixir-webpack-official
+62 verbose url raw laravel-elixir-vue-2
+63 verbose url resolving [ 'https://registry.npmjs.org/', './laravel-elixir-vue-2' ]
+64 verbose url resolved https://registry.npmjs.org/laravel-elixir-vue-2
+65 info trying registry request attempt 1 at 04:49:45
+66 verbose etag "583efb4b-1c65"
+67 http GET https://registry.npmjs.org/laravel-elixir-vue-2
+68 http 304 https://registry.npmjs.org/laravel-elixir-webpack-official
+69 silly registry.get cb [ 304,
+69 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:35 GMT',
+69 silly registry.get     via: '1.1 varnish',
+69 silly registry.get     'cache-control': 'max-age=300',
+69 silly registry.get     etag: '"58404d31-449f"',
+69 silly registry.get     age: '0',
+69 silly registry.get     connection: 'keep-alive',
+69 silly registry.get     'x-served-by': 'cache-fra1239-FRA',
+69 silly registry.get     'x-cache': 'MISS',
+69 silly registry.get     'x-cache-hits': '0',
+69 silly registry.get     'x-timer': 'S1486432235.273488,VS0,VE68',
+69 silly registry.get     vary: 'Accept-Encoding' } ]
+70 verbose etag laravel-elixir-webpack-official from cache
+71 silly addNameRange number 2 { name: 'laravel-elixir-webpack-official',
+71 silly addNameRange   range: '>=1.0.2-0 <2.0.0-0',
+71 silly addNameRange   hasData: true }
+72 silly addNameRange versions [ 'laravel-elixir-webpack-official',
+72 silly addNameRange   [ '1.0.0',
+72 silly addNameRange     '1.0.1',
+72 silly addNameRange     '1.0.2',
+72 silly addNameRange     '1.0.3',
+72 silly addNameRange     '1.0.4',
+72 silly addNameRange     '1.0.5',
+72 silly addNameRange     '1.0.6',
+72 silly addNameRange     '1.0.8',
+72 silly addNameRange     '1.0.9',
+72 silly addNameRange     '1.0.10' ] ]
+73 verbose addNamed [ 'laravel-elixir-webpack-official', '1.0.10' ]
+74 verbose addNamed [ '1.0.10', '1.0.10' ]
+75 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+76 verbose lock laravel-elixir-webpack-official@1.0.10 /home/kjs/.npm/646055bc-l-elixir-webpack-official-1-0-10.lock
+77 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+78 silly lockFile 646055bc-l-elixir-webpack-official-1-0-10 laravel-elixir-webpack-official@1.0.10
+79 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+80 silly lockFile 60cfa36d-el-elixir-webpack-official-1-0-2 laravel-elixir-webpack-official@^1.0.2
+81 http 304 https://registry.npmjs.org/laravel-elixir-vue-2
+82 silly registry.get cb [ 304,
+82 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:35 GMT',
+82 silly registry.get     via: '1.1 varnish',
+82 silly registry.get     'cache-control': 'max-age=300',
+82 silly registry.get     etag: '"583efb4b-1c65"',
+82 silly registry.get     age: '0',
+82 silly registry.get     connection: 'keep-alive',
+82 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+82 silly registry.get     'x-cache': 'HIT',
+82 silly registry.get     'x-cache-hits': '1',
+82 silly registry.get     'x-timer': 'S1486432235.285415,VS0,VE110',
+82 silly registry.get     vary: 'Accept-Encoding' } ]
+83 verbose etag laravel-elixir-vue-2 from cache
+84 silly addNameRange number 2 { name: 'laravel-elixir-vue-2',
+84 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+84 silly addNameRange   hasData: true }
+85 silly addNameRange versions [ 'laravel-elixir-vue-2',
+85 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '0.3.0' ] ]
+86 verbose addNamed [ 'laravel-elixir-vue-2', '0.2.0' ]
+87 verbose addNamed [ '0.2.0', '0.2.0' ]
+88 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+89 verbose lock laravel-elixir-vue-2@0.2.0 /home/kjs/.npm/25b78a1a-laravel-elixir-vue-2-0-2-0.lock
+90 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+91 silly lockFile 25b78a1a-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@0.2.0
+92 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+93 silly lockFile a11fa157-laravel-elixir-vue-2-0-2-0 laravel-elixir-vue-2@^0.2.0
+94 http 304 https://registry.npmjs.org/laravel-elixir
+95 silly registry.get cb [ 304,
+95 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:35 GMT',
+95 silly registry.get     via: '1.1 varnish',
+95 silly registry.get     'cache-control': 'max-age=300',
+95 silly registry.get     etag: '"5854a843-50814"',
+95 silly registry.get     age: '0',
+95 silly registry.get     connection: 'keep-alive',
+95 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+95 silly registry.get     'x-cache': 'HIT',
+95 silly registry.get     'x-cache-hits': '1',
+95 silly registry.get     'x-timer': 'S1486432235.748897,VS0,VE107',
+95 silly registry.get     vary: 'Accept-Encoding' } ]
+96 verbose etag laravel-elixir from cache
+97 silly addNameRange number 2 { name: 'laravel-elixir',
+97 silly addNameRange   range: '>=6.0.0-11 <7.0.0-0',
+97 silly addNameRange   hasData: true }
+98 silly addNameRange versions [ 'laravel-elixir',
+98 silly addNameRange   [ '0.1.0',
+98 silly addNameRange     '0.1.1',
+98 silly addNameRange     '0.1.2',
+98 silly addNameRange     '0.1.3',
+98 silly addNameRange     '0.1.4',
+98 silly addNameRange     '0.1.5',
+98 silly addNameRange     '0.1.6',
+98 silly addNameRange     '0.1.7',
+98 silly addNameRange     '0.1.8',
+98 silly addNameRange     '0.1.9',
+98 silly addNameRange     '0.2.0',
+98 silly addNameRange     '0.2.1',
+98 silly addNameRange     '0.2.2',
+98 silly addNameRange     '0.3.0',
+98 silly addNameRange     '0.3.1',
+98 silly addNameRange     '0.3.2',
+98 silly addNameRange     '0.3.3',
+98 silly addNameRange     '0.3.4',
+98 silly addNameRange     '0.3.5',
+98 silly addNameRange     '0.3.7',
+98 silly addNameRange     '0.3.8',
+98 silly addNameRange     '0.3.9',
+98 silly addNameRange     '0.3.10',
+98 silly addNameRange     '0.3.11',
+98 silly addNameRange     '0.4.0',
+98 silly addNameRange     '0.4.1',
+98 silly addNameRange     '0.4.3',
+98 silly addNameRange     '0.4.4',
+98 silly addNameRange     '0.4.5',
+98 silly addNameRange     '0.4.6',
+98 silly addNameRange     '0.4.7',
+98 silly addNameRange     '0.4.8',
+98 silly addNameRange     '0.4.9',
+98 silly addNameRange     '0.4.10',
+98 silly addNameRange     '0.4.11',
+98 silly addNameRange     '0.4.12',
+98 silly addNameRange     '0.4.13',
+98 silly addNameRange     '0.4.14',
+98 silly addNameRange     '0.4.15',
+98 silly addNameRange     '0.4.16',
+98 silly addNameRange     '0.4.17',
+98 silly addNameRange     '0.5.0',
+98 silly addNameRange     '0.5.1',
+98 silly addNameRange     '0.5.2',
+98 silly addNameRange     '0.5.3',
+98 silly addNameRange     '0.5.4',
+98 silly addNameRange     '0.5.5',
+98 silly addNameRange     '0.5.6',
+98 silly addNameRange     '0.5.7',
+98 silly addNameRange     '0.5.8',
+98 silly addNameRange     '0.6.0',
+98 silly addNameRange     '0.6.1',
+98 silly addNameRange     '0.6.2',
+98 silly addNameRange     '0.6.3',
+98 silly addNameRange     '0.6.4',
+98 silly addNameRange     '0.6.5',
+98 silly addNameRange     '0.6.6',
+98 silly addNameRange     '0.7.0',
+98 silly addNameRange     '0.6.7',
+98 silly addNameRange     '0.6.8',
+98 silly addNameRange     '0.7.1',
+98 silly addNameRange     '0.7.3',
+98 silly addNameRange     '0.7.4',
+98 silly addNameRange     '0.7.5',
+98 silly addNameRange     '0.7.6',
+98 silly addNameRange     '0.7.7',
+98 silly addNameRange     '0.7.8',
+98 silly addNameRange     '0.7.9',
+98 silly addNameRange     '0.7.10',
+98 silly addNameRange     '0.7.11',
+98 silly addNameRange     '0.8.0',
+98 silly addNameRange     '0.8.1',
+98 silly addNameRange     '0.9.1',
+98 silly addNameRange     '0.10.0',
+98 silly addNameRange     '0.10.1',
+98 silly addNameRange     '0.10.2',
+98 silly addNameRange     '0.10.3',
+98 silly addNameRange     '0.10.4',
+98 silly addNameRange     '0.10.5',
+98 silly addNameRange     '0.10.6',
+98 silly addNameRange     '0.10.7',
+98 silly addNameRange     '0.11.0',
+98 silly addNameRange     '0.12.0',
+98 silly addNameRange     '0.12.2',
+98 silly addNameRange     '0.12.3',
+98 silly addNameRange     '0.13.0',
+98 silly addNameRange     '0.13.1',
+98 silly addNameRange     '0.13.2',
+98 silly addNameRange     '0.13.3',
+98 silly addNameRange     '0.14.0',
+98 silly addNameRange     '0.14.2',
+98 silly addNameRange     '0.14.3',
+98 silly addNameRange     '0.14.4',
+98 silly addNameRange     '0.15.0',
+98 silly addNameRange     '0.15.1',
+98 silly addNameRange     '0.15.2',
+98 silly addNameRange     '0.15.3',
+98 silly addNameRange     '0.15.4',
+98 silly addNameRange     '0.15.5',
+98 silly addNameRange     '0.16.0',
+98 silly addNameRange     '0.16.1',
+98 silly addNameRange     '0.16.2',
+98 silly addNameRange     '0.16.3',
+98 silly addNameRange     '0.18.0',
+98 silly addNameRange     '0.18.1',
+98 silly addNameRange     '0.18.2',
+98 silly addNameRange     '0.18.3',
+98 silly addNameRange     '0.18.4',
+98 silly addNameRange     '0.18.5',
+98 silly addNameRange     '0.18.6',
+98 silly addNameRange     '0.18.7',
+98 silly addNameRange     '1.0.1',
+98 silly addNameRange     '1.0.2',
+98 silly addNameRange     '1.0.3',
+98 silly addNameRange     '2.0.0',
+98 silly addNameRange     '2.0.1',
+98 silly addNameRange     '2.1.0',
+98 silly addNameRange     '2.1.1',
+98 silly addNameRange     '2.1.2',
+98 silly addNameRange     '2.2.0',
+98 silly addNameRange     '2.2.1',
+98 silly addNameRange     '2.2.2',
+98 silly addNameRange     '2.2.3',
+98 silly addNameRange     '2.2.4',
+98 silly addNameRange     '2.3.0',
+98 silly addNameRange     '2.3.1',
+98 silly addNameRange     '2.3.2',
+98 silly addNameRange     '2.3.3',
+98 silly addNameRange     '2.3.4',
+98 silly addNameRange     '2.3.5',
+98 silly addNameRange     '2.3.6',
+98 silly addNameRange     '2.3.8',
+98 silly addNameRange     '2.3.9',
+98 silly addNameRange     '2.3.10',
+98 silly addNameRange     '2.3.11',
+98 silly addNameRange     '2.3.12',
+98 silly addNameRange     '2.3.13',
+98 silly addNameRange     '3.0.0-beta1',
+98 silly addNameRange     '3.0.0-beta2',
+98 silly addNameRange     '3.0.0',
+98 silly addNameRange     '3.0.1',
+98 silly addNameRange     '3.0.3',
+98 silly addNameRange     '3.0.4',
+98 silly addNameRange     '3.0.5',
+98 silly addNameRange     '3.0.6',
+98 silly addNameRange     '3.0.7',
+98 silly addNameRange     '3.1.0',
+98 silly addNameRange     '3.1.1',
+98 silly addNameRange     '3.1.2',
+98 silly addNameRange     '3.2.1',
+98 silly addNameRange     '3.2.2',
+98 silly addNameRange     '3.2.3',
+98 silly addNameRange     '3.2.4',
+98 silly addNameRange     '3.2.5',
+98 silly addNameRange     '3.2.6',
+98 silly addNameRange     '3.2.7',
+98 silly addNameRange     '3.2.8',
+98 silly addNameRange     '3.3.0',
+98 silly addNameRange     '3.3.1',
+98 silly addNameRange     '3.3.2',
+98 silly addNameRange     '3.3.3',
+98 silly addNameRange     '3.3.4',
+98 silly addNameRange     '3.3.5',
+98 silly addNameRange     '3.4.0',
+98 silly addNameRange     '3.4.1',
+98 silly addNameRange     '3.4.2',
+98 silly addNameRange     '4.0.0',
+98 silly addNameRange     '3.4.3',
+98 silly addNameRange     '4.0.1',
+98 silly addNameRange     '4.0.3',
+98 silly addNameRange     '4.0.4',
+98 silly addNameRange     '4.1.0',
+98 silly addNameRange     '4.1.1',
+98 silly addNameRange     '4.1.2',
+98 silly addNameRange     '4.2.0',
+98 silly addNameRange     '4.2.1',
+98 silly addNameRange     '5.0.0',
+98 silly addNameRange     '6.0.0-0',
+98 silly addNameRange     '6.0.0-1',
+98 silly addNameRange     '6.0.0-2',
+98 silly addNameRange     '6.0.0-3',
+98 silly addNameRange     '6.0.0-4',
+98 silly addNameRange     '6.0.0-5',
+98 silly addNameRange     '6.0.0-6',
+98 silly addNameRange     '6.0.0-7',
+98 silly addNameRange     '6.0.0-8',
+98 silly addNameRange     '6.0.0-9',
+98 silly addNameRange     '6.0.0-10',
+98 silly addNameRange     '6.0.0-11',
+98 silly addNameRange     '6.0.0-13',
+98 silly addNameRange     '6.0.0-14',
+98 silly addNameRange     '6.0.0-15' ] ]
+99 verbose addNamed [ 'laravel-elixir', '6.0.0-15' ]
+100 verbose addNamed [ '6.0.0-15', '6.0.0-15' ]
+101 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+102 verbose lock laravel-elixir@6.0.0-15 /home/kjs/.npm/43b687f8-laravel-elixir-6-0-0-15.lock
+103 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+104 silly lockFile 43b687f8-laravel-elixir-6-0-0-15 laravel-elixir@6.0.0-15
+105 silly lockFile 0a1a54ec-laravel-elixir-6-0-0-11 laravel-elixir@^6.0.0-11
+106 silly lockFile 0a1a54ec-laravel-elixir-6-0-0-11 laravel-elixir@^6.0.0-11
+107 silly resolved [ { name: 'laravel-elixir-webpack-official',
+107 silly resolved     version: '1.0.10',
+107 silly resolved     description: 'Laravel Elixir Webpack integration',
+107 silly resolved     main: 'dist/index.js',
+107 silly resolved     repository:
+107 silly resolved      { type: 'git',
+107 silly resolved        url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official.git' },
+107 silly resolved     homepage: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official',
+107 silly resolved     scripts:
+107 silly resolved      { compile: 'babel --presets=es2015 -d dist src',
+107 silly resolved        prepublish: 'npm run compile' },
+107 silly resolved     keywords: [ 'laravel', 'elixir', 'webpack', 'gulp' ],
+107 silly resolved     author: { name: 'Jeffrey Way' },
+107 silly resolved     license: 'MIT',
+107 silly resolved     dependencies:
+107 silly resolved      { buble: '^0.12.3',
+107 silly resolved        'buble-loader': '^0.2.2',
+107 silly resolved        'gulp-filter': '^4.0.0',
+107 silly resolved        lodash: '^4.15.0',
+107 silly resolved        webpack: '2.1.0-beta.15 - 2.1.0-beta.22',
+107 silly resolved        'webpack-stream': 'github:jeroennoten/webpack-stream#patch-1' },
+107 silly resolved     devDependencies: { 'babel-cli': '^6.10.1', 'babel-preset-es2015': '^6.9.0' },
+107 silly resolved     readme: '# Laravel Elixir Webpack Integration\n\nThis extension brings Webpack support to Laravel Elixir, version 6 and up.\n\n## Step 1: Install\n\n```js\nnpm install laravel-elixir-webpack-official --save-dev\n```\n\n## Step 2: Usage\n\nSimilar to Browserify, the `webpack` method may be used to compile and bundle [ECMAScript 2015](https://babeljs.io/docs/learn-es2015/) into plain JavaScript.\nThis function accepts a file, relative to the `resources/assets/js` directory, and generates a single bundled file in the `public/js` directory:\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\');\n});\n```\n\nTo choose a different output or base directory, simply specify your desired paths as the second and third arguments, respectively.\n\n```javascript\nelixir(function(mix) {\n    mix.webpack(\'app.js\', \'public/dist\', \'app/assets/js\');\n});\n```\n\nThis will compile `app/assets/js/app.js` to `public/dist/app.js`.\n\nIf you\'d like to leverage more of Webpack\'s functionality, Elixir will read any `webpack.config.js` file in your project root, and [factor its configuration](https://webpack.github.io/docs/configuration.html) into the build process. Alternatively, you may pass your Webpack-specific configuration as the fourth argument to `mix.webpack()`.\n\n## Step 3: Plugins\n\nIf you\'ve created a plugin, and need to hook your own Webpack config into Elixir\'s defaults, add the following to your script:\n\n```js\nElixir.webpack.mergeConfig({\n    babel: {\n        presets: [\'es2015\'],\n        plugins: [\'transform-runtime\'],\n    },\n    module: {\n        loaders: [{\n            test: /\\.vue$/,\n            loader: \'vue\'\n        }]\n    }\n});\n```\n\n`Elixir.webpack.mergeConfig(newConfig)` will recursively merge your provided configuration with ours. It also properly merges any nested  arrays, so as not to override important default configuration. For example, in the code snippet above, the addition of the Vue loader will not overwrite the default loaders that we provide.',
+107 silly resolved     readmeFilename: 'readme.md',
+107 silly resolved     bugs: { url: 'https://github.com/JeffreyWay/laravel-elixir-webpack-official/issues' },
+107 silly resolved     _id: 'laravel-elixir-webpack-official@1.0.10',
+107 silly resolved     _from: 'laravel-elixir-webpack-official@^1.0.2' },
+107 silly resolved   { name: 'laravel-elixir-vue-2',
+107 silly resolved     version: '0.2.0',
+107 silly resolved     description: '\'Laravel Elixir Vue 2.0 Integration\'',
+107 silly resolved     main: 'index.js',
+107 silly resolved     repository:
+107 silly resolved      { type: 'git',
+107 silly resolved        url: 'git+https://github.com/vuejs/laravel-elixir-vue-2.git' },
+107 silly resolved     keywords: [ 'vue', 'laravel' ],
+107 silly resolved     author: { name: 'Evan You' },
+107 silly resolved     license: 'MIT',
+107 silly resolved     bugs: { url: 'https://github.com/vuejs/laravel-elixir-vue-2/issues' },
+107 silly resolved     homepage: 'https://github.com/vuejs/laravel-elixir-vue-2#readme',
+107 silly resolved     dependencies:
+107 silly resolved      { 'css-loader': '^0.23.1',
+107 silly resolved        'file-loader': '^0.9.0',
+107 silly resolved        'sass-loader': '^4.0.0',
+107 silly resolved        'url-loader': '^0.5.7',
+107 silly resolved        'vue-loader': '^9.3.2' },
+107 silly resolved     readme: 'ERROR: No README data found!',
+107 silly resolved     _id: 'laravel-elixir-vue-2@0.2.0',
+107 silly resolved     _from: 'laravel-elixir-vue-2@^0.2.0' },
+107 silly resolved   { name: 'laravel-elixir',
+107 silly resolved     version: '6.0.0-15',
+107 silly resolved     description: 'Laravel Elixir Core',
+107 silly resolved     main: 'dist/index.js',
+107 silly resolved     scripts:
+107 silly resolved      { compile: 'babel --presets=es2015 -d dist/ src/',
+107 silly resolved        test: 'cd elixir-test-app && mocha --require babel-core/register --require=test/bootstrap.js',
+107 silly resolved        prepublish: 'npm run compile' },
+107 silly resolved     repository: { type: 'git', url: 'https://github.com/laravel/elixir' },
+107 silly resolved     keywords: [ 'laravel', 'elixir', 'gulp' ],
+107 silly resolved     author: { name: 'Jeffrey Way' },
+107 silly resolved     license: 'MIT',
+107 silly resolved     homepage: 'https://github.com/laravel/elixir',
+107 silly resolved     dependencies:
+107 silly resolved      { 'clean-css': '^3.4.12',
+107 silly resolved        'cli-table': '^0.3.1',
+107 silly resolved        del: '^2.2.0',
+107 silly resolved        glob: '^7.0.3',
+107 silly resolved        'gulp-autoprefixer': '^3.1.0',
+107 silly resolved        'gulp-batch': '^1.0.5',
+107 silly resolved        'gulp-concat': '^2.6.0',
+107 silly resolved        'gulp-if': '^2.0.0',
+107 silly resolved        'gulp-less': '^3.0.5',
+107 silly resolved        'gulp-load-plugins': '^1.2.2',
+107 silly resolved        'gulp-notify': '^2.2.0',
+107 silly resolved        'gulp-rename': '^1.2.2',
+107 silly resolved        'gulp-rev': '^7.0.0',
+107 silly resolved        'gulp-rev-replace': '^0.4.3',
+107 silly resolved        'gulp-sass': '^2.3.1',
+107 silly resolved        'gulp-shell': '^0.5.2',
+107 silly resolved        'gulp-sourcemaps': '^1.6.0',
+107 silly resolved        'gulp-uglify': '^1.5.3',
+107 silly resolved        'gulp-util': '^3.0.7',
+107 silly resolved        'parse-filepath': '^1.0.1',
+107 silly resolved        path: '^0.12.7',
+107 silly resolved        q: '^1.4.1',
+107 silly resolved        'require-dir': '^0.3.0',
+107 silly resolved        'run-sequence': '^1.1.5',
+107 silly resolved        underscore: '^1.8.3',
+107 silly resolved        'vinyl-map2': '^1.2.1' },
+107 silly resolved     devDependencies:
+107 silly resolved      { 'babel-cli': '^6.7.7',
+107 silly resolved        'babel-preset-es2015': '^6.9.0',
+107 silly resolved        chai: '^3.5.0',
+107 silly resolved        gulp: '^3.9.1',
+107 silly resolved        'laravel-elixir-browserify-official': '^0.1.3',
+107 silly resolved        'laravel-elixir-coffeescript': '^1.0.2',
+107 silly resolved        'laravel-elixir-rollup-official': '^1.0.4',
+107 silly resolved        'laravel-elixir-stylus': '^2.0.2',
+107 silly resolved        'laravel-elixir-vue': '^0.1.4',
+107 silly resolved        'laravel-elixir-webpack-official': '^1.0.1',
+107 silly resolved        mocha: '^2.4.5',
+107 silly resolved        rimraf: '^2.5.2' },
+107 silly resolved     readme: '# Laravel Elixir\n\n## Introduction\n\nLaravel Elixir provides a clean, fluent API for defining basic Gulp tasks for your Laravel application. Elixir supports several common CSS and JavaScript pre-processors, and even testing tools.\n\nIf you\'ve ever been confused about how to get started with Gulp and asset compilation, you will love Laravel Elixir!\n\n## Official Documentation\n\nDocumentation for Elixir can be found on the [Laravel website](http://laravel.com/docs/elixir).\n\n## License\n\nLaravel Elixir is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).\n',
+107 silly resolved     readmeFilename: 'readme.md',
+107 silly resolved     bugs: { url: 'https://github.com/laravel/elixir/issues' },
+107 silly resolved     _id: 'laravel-elixir@6.0.0-15',
+107 silly resolved     _from: 'laravel-elixir@^6.0.0-11' } ]
+108 info install laravel-elixir-webpack-official@1.0.10 into /home/kjs/site/bofh
+109 info install laravel-elixir-vue-2@0.2.0 into /home/kjs/site/bofh
+110 info install laravel-elixir@6.0.0-15 into /home/kjs/site/bofh
+111 info installOne laravel-elixir-webpack-official@1.0.10
+112 info installOne laravel-elixir-vue-2@0.2.0
+113 info installOne laravel-elixir@6.0.0-15
+114 info /home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official unbuild
+115 info /home/kjs/site/bofh/node_modules/laravel-elixir-vue-2 unbuild
+116 info /home/kjs/site/bofh/node_modules/laravel-elixir unbuild
+117 verbose tar unpack /home/kjs/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+118 silly lockFile 76cee631--laravel-elixir-webpack-official tar:///home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official
+119 verbose lock tar:///home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official /home/kjs/.npm/76cee631--laravel-elixir-webpack-official.lock
+120 silly lockFile 1016bbc5-pack-official-1-0-10-package-tgz tar:///home/kjs/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+121 verbose lock tar:///home/kjs/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz /home/kjs/.npm/1016bbc5-pack-official-1-0-10-package-tgz.lock
+122 verbose tar unpack /home/kjs/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+123 silly lockFile e07c1126-ode-modules-laravel-elixir-vue-2 tar:///home/kjs/site/bofh/node_modules/laravel-elixir-vue-2
+124 verbose lock tar:///home/kjs/site/bofh/node_modules/laravel-elixir-vue-2 /home/kjs/.npm/e07c1126-ode-modules-laravel-elixir-vue-2.lock
+125 silly lockFile 283bf05f-l-elixir-vue-2-0-2-0-package-tgz tar:///home/kjs/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+126 verbose lock tar:///home/kjs/.npm/laravel-elixir-vue-2/0.2.0/package.tgz /home/kjs/.npm/283bf05f-l-elixir-vue-2-0-2-0-package-tgz.lock
+127 verbose tar unpack /home/kjs/.npm/laravel-elixir/6.0.0-15/package.tgz
+128 silly lockFile 24fd92c7-bofh-node-modules-laravel-elixir tar:///home/kjs/site/bofh/node_modules/laravel-elixir
+129 verbose lock tar:///home/kjs/site/bofh/node_modules/laravel-elixir /home/kjs/.npm/24fd92c7-bofh-node-modules-laravel-elixir.lock
+130 silly lockFile e0843c62-avel-elixir-6-0-0-15-package-tgz tar:///home/kjs/.npm/laravel-elixir/6.0.0-15/package.tgz
+131 verbose lock tar:///home/kjs/.npm/laravel-elixir/6.0.0-15/package.tgz /home/kjs/.npm/e0843c62-avel-elixir-6-0-0-15-package-tgz.lock
+132 silly gunzTarPerm modes [ '755', '644' ]
+133 silly gunzTarPerm modes [ '755', '644' ]
+134 silly gunzTarPerm modes [ '755', '644' ]
+135 silly gunzTarPerm extractEntry package.json
+136 silly gunzTarPerm extractEntry package.json
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm extractEntry .npmignore
+139 silly gunzTarPerm extractEntry dist/WebpackTask.js
+140 silly gunzTarPerm extractEntry .npmignore
+141 silly gunzTarPerm extractEntry index.js
+142 silly gunzTarPerm extractEntry .npmignore
+143 silly gunzTarPerm extractEntry .babelrc
+144 silly gunzTarPerm extractEntry dist/index.js
+145 silly gunzTarPerm extractEntry project.sublime-workspace
+146 silly gunzTarPerm extractEntry .editorconfig
+147 silly gunzTarPerm extractEntry CHANGELOG.md
+148 silly gunzTarPerm extractEntry readme.md
+149 silly gunzTarPerm extractEntry dist/Config.js
+150 silly gunzTarPerm extractEntry dist/Log.js
+151 silly gunzTarPerm extractEntry dist/Notification.js
+152 silly gunzTarPerm extractEntry dist/index.js
+153 silly gunzTarPerm extractEntry dist/bootstrap/EnableExtension.js
+154 silly gunzTarPerm extractEntry dist/bootstrap/LoadExtensions.js
+155 silly gunzTarPerm extractEntry dist/bootstrap/SetDependencies.js
+156 silly gunzTarPerm extractEntry dist/bootstrap/SetHooks.js
+157 silly gunzTarPerm extractEntry dist/reporters/MinimalTaskReporter.js
+158 silly gunzTarPerm extractEntry dist/reporters/TaskReporter.js
+159 silly gunzTarPerm extractEntry dist/tasks/CombineTask.js
+160 silly gunzTarPerm extractEntry dist/tasks/CssTask.js
+161 silly gunzTarPerm extractEntry dist/tasks/GulpBuilder.js
+162 silly gunzTarPerm extractEntry dist/tasks/GulpPaths.js
+163 silly gunzTarPerm extractEntry dist/tasks/Task.js
+164 silly gunzTarPerm extractEntry dist/tasks/TaskCollection.js
+165 silly gunzTarPerm extractEntry dist/tasks/TestingTask.js
+166 silly gunzTarPerm extractEntry dist/tasks/VersionTask.js
+167 silly gunzTarPerm extractEntry dist/tasks/recipes/combine.js
+168 silly gunzTarPerm extractEntry dist/tasks/recipes/exec.js
+169 silly gunzTarPerm extractEntry dist/tasks/recipes/external-recipes.js
+170 silly gunzTarPerm extractEntry dist/tasks/recipes/less.js
+171 silly gunzTarPerm extractEntry dist/tasks/recipes/phpspec.js
+172 silly gunzTarPerm extractEntry dist/tasks/recipes/deprecated.js
+173 silly gunzTarPerm extractEntry dist/tasks/recipes/sass.js
+174 silly gunzTarPerm extractEntry dist/tasks/recipes/scripts.js
+175 silly gunzTarPerm extractEntry dist/tasks/recipes/styles.js
+176 silly gunzTarPerm extractEntry dist/tasks/recipes/task.js
+177 silly gunzTarPerm extractEntry dist/tasks/recipes/tdd.js
+178 silly gunzTarPerm extractEntry dist/tasks/recipes/default.js
+179 silly gunzTarPerm extractEntry dist/tasks/recipes/version.js
+180 silly gunzTarPerm extractEntry dist/tasks/recipes/copy.js
+181 silly gunzTarPerm extractEntry dist/tasks/recipes/watch.js
+182 silly gunzTarPerm extractEntry dist/tasks/recipes/phpunit.js
+183 silly gunzTarPerm extractEntry dist/tasks/utilities/minifier.js
+184 silly gunzTarPerm extractEntry icons/fail.png
+185 silly gunzTarPerm extractEntry icons/laravel.png
+186 silly gunzTarPerm extractEntry icons/pass.png
+187 silly gunzTarPerm extractEntry readme.md
+188 silly lockFile e07c1126-ode-modules-laravel-elixir-vue-2 tar:///home/kjs/site/bofh/node_modules/laravel-elixir-vue-2
+189 silly lockFile e07c1126-ode-modules-laravel-elixir-vue-2 tar:///home/kjs/site/bofh/node_modules/laravel-elixir-vue-2
+190 silly lockFile 283bf05f-l-elixir-vue-2-0-2-0-package-tgz tar:///home/kjs/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+191 silly lockFile 283bf05f-l-elixir-vue-2-0-2-0-package-tgz tar:///home/kjs/.npm/laravel-elixir-vue-2/0.2.0/package.tgz
+192 info preinstall laravel-elixir-vue-2@0.2.0
+193 verbose readDependencies using package.json deps
+194 verbose readDependencies using package.json deps
+195 verbose cache add [ 'sass-loader@^4.0.0', null ]
+196 verbose cache add name=undefined spec="sass-loader@^4.0.0" args=["sass-loader@^4.0.0",null]
+197 verbose parsed url { protocol: null,
+197 verbose parsed url   slashes: null,
+197 verbose parsed url   auth: null,
+197 verbose parsed url   host: null,
+197 verbose parsed url   port: null,
+197 verbose parsed url   hostname: null,
+197 verbose parsed url   hash: null,
+197 verbose parsed url   search: null,
+197 verbose parsed url   query: null,
+197 verbose parsed url   pathname: 'sass-loader@^4.0.0',
+197 verbose parsed url   path: 'sass-loader@^4.0.0',
+197 verbose parsed url   href: 'sass-loader@^4.0.0' }
+198 verbose cache add name="sass-loader" spec="^4.0.0" args=["sass-loader","^4.0.0"]
+199 verbose parsed url { protocol: null,
+199 verbose parsed url   slashes: null,
+199 verbose parsed url   auth: null,
+199 verbose parsed url   host: null,
+199 verbose parsed url   port: null,
+199 verbose parsed url   hostname: null,
+199 verbose parsed url   hash: null,
+199 verbose parsed url   search: null,
+199 verbose parsed url   query: null,
+199 verbose parsed url   pathname: '^4.0.0',
+199 verbose parsed url   path: '^4.0.0',
+199 verbose parsed url   href: '^4.0.0' }
+200 verbose addNamed [ 'sass-loader', '^4.0.0' ]
+201 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+202 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+203 verbose lock sass-loader@^4.0.0 /home/kjs/.npm/e7f467ec-sass-loader-4-0-0.lock
+204 verbose cache add [ 'css-loader@^0.23.1', null ]
+205 verbose cache add name=undefined spec="css-loader@^0.23.1" args=["css-loader@^0.23.1",null]
+206 verbose parsed url { protocol: null,
+206 verbose parsed url   slashes: null,
+206 verbose parsed url   auth: null,
+206 verbose parsed url   host: null,
+206 verbose parsed url   port: null,
+206 verbose parsed url   hostname: null,
+206 verbose parsed url   hash: null,
+206 verbose parsed url   search: null,
+206 verbose parsed url   query: null,
+206 verbose parsed url   pathname: 'css-loader@^0.23.1',
+206 verbose parsed url   path: 'css-loader@^0.23.1',
+206 verbose parsed url   href: 'css-loader@^0.23.1' }
+207 verbose cache add name="css-loader" spec="^0.23.1" args=["css-loader","^0.23.1"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '^0.23.1',
+208 verbose parsed url   path: '^0.23.1',
+208 verbose parsed url   href: '^0.23.1' }
+209 verbose addNamed [ 'css-loader', '^0.23.1' ]
+210 verbose addNamed [ null, '>=0.23.1-0 <0.24.0-0' ]
+211 silly lockFile b4e238d3-css-loader-0-23-1 css-loader@^0.23.1
+212 verbose lock css-loader@^0.23.1 /home/kjs/.npm/b4e238d3-css-loader-0-23-1.lock
+213 verbose cache add [ 'file-loader@^0.9.0', null ]
+214 verbose cache add name=undefined spec="file-loader@^0.9.0" args=["file-loader@^0.9.0",null]
+215 verbose parsed url { protocol: null,
+215 verbose parsed url   slashes: null,
+215 verbose parsed url   auth: null,
+215 verbose parsed url   host: null,
+215 verbose parsed url   port: null,
+215 verbose parsed url   hostname: null,
+215 verbose parsed url   hash: null,
+215 verbose parsed url   search: null,
+215 verbose parsed url   query: null,
+215 verbose parsed url   pathname: 'file-loader@^0.9.0',
+215 verbose parsed url   path: 'file-loader@^0.9.0',
+215 verbose parsed url   href: 'file-loader@^0.9.0' }
+216 verbose cache add name="file-loader" spec="^0.9.0" args=["file-loader","^0.9.0"]
+217 verbose parsed url { protocol: null,
+217 verbose parsed url   slashes: null,
+217 verbose parsed url   auth: null,
+217 verbose parsed url   host: null,
+217 verbose parsed url   port: null,
+217 verbose parsed url   hostname: null,
+217 verbose parsed url   hash: null,
+217 verbose parsed url   search: null,
+217 verbose parsed url   query: null,
+217 verbose parsed url   pathname: '^0.9.0',
+217 verbose parsed url   path: '^0.9.0',
+217 verbose parsed url   href: '^0.9.0' }
+218 verbose addNamed [ 'file-loader', '^0.9.0' ]
+219 verbose addNamed [ null, '>=0.9.0-0 <0.10.0-0' ]
+220 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+221 verbose lock file-loader@^0.9.0 /home/kjs/.npm/398b9e9c-file-loader-0-9-0.lock
+222 verbose cache add [ 'url-loader@^0.5.7', null ]
+223 verbose cache add name=undefined spec="url-loader@^0.5.7" args=["url-loader@^0.5.7",null]
+224 verbose parsed url { protocol: null,
+224 verbose parsed url   slashes: null,
+224 verbose parsed url   auth: null,
+224 verbose parsed url   host: null,
+224 verbose parsed url   port: null,
+224 verbose parsed url   hostname: null,
+224 verbose parsed url   hash: null,
+224 verbose parsed url   search: null,
+224 verbose parsed url   query: null,
+224 verbose parsed url   pathname: 'url-loader@^0.5.7',
+224 verbose parsed url   path: 'url-loader@^0.5.7',
+224 verbose parsed url   href: 'url-loader@^0.5.7' }
+225 verbose cache add name="url-loader" spec="^0.5.7" args=["url-loader","^0.5.7"]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: '^0.5.7',
+226 verbose parsed url   path: '^0.5.7',
+226 verbose parsed url   href: '^0.5.7' }
+227 verbose addNamed [ 'url-loader', '^0.5.7' ]
+228 verbose addNamed [ null, '>=0.5.7-0 <0.6.0-0' ]
+229 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+230 verbose lock url-loader@^0.5.7 /home/kjs/.npm/6e6af105-url-loader-0-5-7.lock
+231 verbose cache add [ 'vue-loader@^9.3.2', null ]
+232 verbose cache add name=undefined spec="vue-loader@^9.3.2" args=["vue-loader@^9.3.2",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'vue-loader@^9.3.2',
+233 verbose parsed url   path: 'vue-loader@^9.3.2',
+233 verbose parsed url   href: 'vue-loader@^9.3.2' }
+234 verbose cache add name="vue-loader" spec="^9.3.2" args=["vue-loader","^9.3.2"]
+235 verbose parsed url { protocol: null,
+235 verbose parsed url   slashes: null,
+235 verbose parsed url   auth: null,
+235 verbose parsed url   host: null,
+235 verbose parsed url   port: null,
+235 verbose parsed url   hostname: null,
+235 verbose parsed url   hash: null,
+235 verbose parsed url   search: null,
+235 verbose parsed url   query: null,
+235 verbose parsed url   pathname: '^9.3.2',
+235 verbose parsed url   path: '^9.3.2',
+235 verbose parsed url   href: '^9.3.2' }
+236 verbose addNamed [ 'vue-loader', '^9.3.2' ]
+237 verbose addNamed [ null, '>=9.3.2-0 <10.0.0-0' ]
+238 silly lockFile a7f6ca26-vue-loader-9-3-2 vue-loader@^9.3.2
+239 verbose lock vue-loader@^9.3.2 /home/kjs/.npm/a7f6ca26-vue-loader-9-3-2.lock
+240 silly addNameRange { name: 'sass-loader',
+240 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+240 silly addNameRange   hasData: false }
+241 silly addNameRange { name: 'css-loader',
+241 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+241 silly addNameRange   hasData: false }
+242 silly addNameRange { name: 'file-loader',
+242 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+242 silly addNameRange   hasData: false }
+243 silly addNameRange { name: 'url-loader',
+243 silly addNameRange   range: '>=0.5.7-0 <0.6.0-0',
+243 silly addNameRange   hasData: false }
+244 silly addNameRange { name: 'vue-loader',
+244 silly addNameRange   range: '>=9.3.2-0 <10.0.0-0',
+244 silly addNameRange   hasData: false }
+245 verbose url raw sass-loader
+246 verbose url resolving [ 'https://registry.npmjs.org/', './sass-loader' ]
+247 verbose url resolved https://registry.npmjs.org/sass-loader
+248 info trying registry request attempt 1 at 04:49:47
+249 verbose etag "58991f61-1118c"
+250 http GET https://registry.npmjs.org/sass-loader
+251 verbose url raw css-loader
+252 verbose url resolving [ 'https://registry.npmjs.org/', './css-loader' ]
+253 verbose url resolved https://registry.npmjs.org/css-loader
+254 info trying registry request attempt 1 at 04:49:47
+255 verbose etag "5898b755-16205"
+256 http GET https://registry.npmjs.org/css-loader
+257 verbose url raw file-loader
+258 verbose url resolving [ 'https://registry.npmjs.org/', './file-loader' ]
+259 verbose url resolved https://registry.npmjs.org/file-loader
+260 info trying registry request attempt 1 at 04:49:47
+261 verbose etag "589741af-5ccd"
+262 http GET https://registry.npmjs.org/file-loader
+263 verbose url raw url-loader
+264 verbose url resolving [ 'https://registry.npmjs.org/', './url-loader' ]
+265 verbose url resolved https://registry.npmjs.org/url-loader
+266 info trying registry request attempt 1 at 04:49:47
+267 verbose etag "5888f093-2dd3"
+268 http GET https://registry.npmjs.org/url-loader
+269 verbose url raw vue-loader
+270 verbose url resolving [ 'https://registry.npmjs.org/', './vue-loader' ]
+271 verbose url resolved https://registry.npmjs.org/vue-loader
+272 info trying registry request attempt 1 at 04:49:47
+273 verbose etag "5898bc08-41289"
+274 http GET https://registry.npmjs.org/vue-loader
+275 silly lockFile 76cee631--laravel-elixir-webpack-official tar:///home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official
+276 silly lockFile 76cee631--laravel-elixir-webpack-official tar:///home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official
+277 silly lockFile 1016bbc5-pack-official-1-0-10-package-tgz tar:///home/kjs/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+278 silly lockFile 1016bbc5-pack-official-1-0-10-package-tgz tar:///home/kjs/.npm/laravel-elixir-webpack-official/1.0.10/package.tgz
+279 info preinstall laravel-elixir-webpack-official@1.0.10
+280 verbose readDependencies using package.json deps
+281 verbose readDependencies using package.json deps
+282 verbose cache add [ 'gulp-filter@^4.0.0', null ]
+283 verbose cache add name=undefined spec="gulp-filter@^4.0.0" args=["gulp-filter@^4.0.0",null]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: 'gulp-filter@^4.0.0',
+284 verbose parsed url   path: 'gulp-filter@^4.0.0',
+284 verbose parsed url   href: 'gulp-filter@^4.0.0' }
+285 verbose cache add name="gulp-filter" spec="^4.0.0" args=["gulp-filter","^4.0.0"]
+286 verbose parsed url { protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '^4.0.0',
+286 verbose parsed url   path: '^4.0.0',
+286 verbose parsed url   href: '^4.0.0' }
+287 verbose addNamed [ 'gulp-filter', '^4.0.0' ]
+288 verbose addNamed [ null, '>=4.0.0-0 <5.0.0-0' ]
+289 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+290 verbose lock gulp-filter@^4.0.0 /home/kjs/.npm/a9c55e0c-gulp-filter-4-0-0.lock
+291 verbose cache add [ 'buble@^0.12.3', null ]
+292 verbose cache add name=undefined spec="buble@^0.12.3" args=["buble@^0.12.3",null]
+293 verbose parsed url { protocol: null,
+293 verbose parsed url   slashes: null,
+293 verbose parsed url   auth: null,
+293 verbose parsed url   host: null,
+293 verbose parsed url   port: null,
+293 verbose parsed url   hostname: null,
+293 verbose parsed url   hash: null,
+293 verbose parsed url   search: null,
+293 verbose parsed url   query: null,
+293 verbose parsed url   pathname: 'buble@^0.12.3',
+293 verbose parsed url   path: 'buble@^0.12.3',
+293 verbose parsed url   href: 'buble@^0.12.3' }
+294 verbose cache add name="buble" spec="^0.12.3" args=["buble","^0.12.3"]
+295 verbose parsed url { protocol: null,
+295 verbose parsed url   slashes: null,
+295 verbose parsed url   auth: null,
+295 verbose parsed url   host: null,
+295 verbose parsed url   port: null,
+295 verbose parsed url   hostname: null,
+295 verbose parsed url   hash: null,
+295 verbose parsed url   search: null,
+295 verbose parsed url   query: null,
+295 verbose parsed url   pathname: '^0.12.3',
+295 verbose parsed url   path: '^0.12.3',
+295 verbose parsed url   href: '^0.12.3' }
+296 verbose addNamed [ 'buble', '^0.12.3' ]
+297 verbose addNamed [ null, '>=0.12.3-0 <0.13.0-0' ]
+298 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+299 verbose lock buble@^0.12.3 /home/kjs/.npm/c87ec1a5-buble-0-12-3.lock
+300 verbose cache add [ 'buble-loader@^0.2.2', null ]
+301 verbose cache add name=undefined spec="buble-loader@^0.2.2" args=["buble-loader@^0.2.2",null]
+302 verbose parsed url { protocol: null,
+302 verbose parsed url   slashes: null,
+302 verbose parsed url   auth: null,
+302 verbose parsed url   host: null,
+302 verbose parsed url   port: null,
+302 verbose parsed url   hostname: null,
+302 verbose parsed url   hash: null,
+302 verbose parsed url   search: null,
+302 verbose parsed url   query: null,
+302 verbose parsed url   pathname: 'buble-loader@^0.2.2',
+302 verbose parsed url   path: 'buble-loader@^0.2.2',
+302 verbose parsed url   href: 'buble-loader@^0.2.2' }
+303 verbose cache add name="buble-loader" spec="^0.2.2" args=["buble-loader","^0.2.2"]
+304 verbose parsed url { protocol: null,
+304 verbose parsed url   slashes: null,
+304 verbose parsed url   auth: null,
+304 verbose parsed url   host: null,
+304 verbose parsed url   port: null,
+304 verbose parsed url   hostname: null,
+304 verbose parsed url   hash: null,
+304 verbose parsed url   search: null,
+304 verbose parsed url   query: null,
+304 verbose parsed url   pathname: '^0.2.2',
+304 verbose parsed url   path: '^0.2.2',
+304 verbose parsed url   href: '^0.2.2' }
+305 verbose addNamed [ 'buble-loader', '^0.2.2' ]
+306 verbose addNamed [ null, '>=0.2.2-0 <0.3.0-0' ]
+307 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+308 verbose lock buble-loader@^0.2.2 /home/kjs/.npm/aba3153c-buble-loader-0-2-2.lock
+309 verbose cache add [ 'webpack@2.1.0-beta.15 - 2.1.0-beta.22', null ]
+310 verbose cache add name=undefined spec="webpack@2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack@2.1.0-beta.15 - 2.1.0-beta.22",null]
+311 verbose parsed url { protocol: null,
+311 verbose parsed url   slashes: null,
+311 verbose parsed url   auth: null,
+311 verbose parsed url   host: null,
+311 verbose parsed url   port: null,
+311 verbose parsed url   hostname: null,
+311 verbose parsed url   hash: null,
+311 verbose parsed url   search: null,
+311 verbose parsed url   query: null,
+311 verbose parsed url   pathname: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+311 verbose parsed url   path: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22',
+311 verbose parsed url   href: 'webpack@2.1.0-beta.15%20-%202.1.0-beta.22' }
+312 verbose cache add name="webpack" spec="2.1.0-beta.15 - 2.1.0-beta.22" args=["webpack","2.1.0-beta.15 - 2.1.0-beta.22"]
+313 verbose parsed url { protocol: null,
+313 verbose parsed url   slashes: null,
+313 verbose parsed url   auth: null,
+313 verbose parsed url   host: null,
+313 verbose parsed url   port: null,
+313 verbose parsed url   hostname: null,
+313 verbose parsed url   hash: null,
+313 verbose parsed url   search: null,
+313 verbose parsed url   query: null,
+313 verbose parsed url   pathname: '2.1.0-beta.15%20-%202.1.0-beta.22',
+313 verbose parsed url   path: '2.1.0-beta.15%20-%202.1.0-beta.22',
+313 verbose parsed url   href: '2.1.0-beta.15%20-%202.1.0-beta.22' }
+314 verbose addNamed [ 'webpack', '2.1.0-beta.15 - 2.1.0-beta.22' ]
+315 verbose addNamed [ null, '>=2.1.0-beta.15 <=2.1.0--beta.22' ]
+316 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+317 verbose lock webpack@2.1.0-beta.15 - 2.1.0-beta.22 /home/kjs/.npm/ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22.lock
+318 verbose cache add [ 'webpack-stream@github:jeroennoten/webpack-stream#patch-1',
+318 verbose cache add   null ]
+319 verbose cache add name=undefined spec="webpack-stream@github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream@github:jeroennoten/webpack-stream#patch-1",null]
+320 verbose parsed url { protocol: null,
+320 verbose parsed url   slashes: null,
+320 verbose parsed url   auth: null,
+320 verbose parsed url   host: null,
+320 verbose parsed url   port: null,
+320 verbose parsed url   hostname: null,
+320 verbose parsed url   hash: '#patch-1',
+320 verbose parsed url   search: null,
+320 verbose parsed url   query: null,
+320 verbose parsed url   pathname: 'webpack-stream@github:jeroennoten/webpack-stream',
+320 verbose parsed url   path: 'webpack-stream@github:jeroennoten/webpack-stream',
+320 verbose parsed url   href: 'webpack-stream@github:jeroennoten/webpack-stream#patch-1' }
+321 verbose cache add name="webpack-stream" spec="github:jeroennoten/webpack-stream#patch-1" args=["webpack-stream","github:jeroennoten/webpack-stream#patch-1"]
+322 verbose parsed url { protocol: 'github:',
+322 verbose parsed url   slashes: null,
+322 verbose parsed url   auth: null,
+322 verbose parsed url   host: 'jeroennoten',
+322 verbose parsed url   port: null,
+322 verbose parsed url   hostname: 'jeroennoten',
+322 verbose parsed url   hash: '#patch-1',
+322 verbose parsed url   search: null,
+322 verbose parsed url   query: null,
+322 verbose parsed url   pathname: '/webpack-stream',
+322 verbose parsed url   path: '/webpack-stream',
+322 verbose parsed url   href: 'github:jeroennoten/webpack-stream#patch-1' }
+323 verbose addNamed [ 'webpack-stream',
+323 verbose addNamed   'github:jeroennoten/webpack-stream#patch-1' ]
+324 verbose addNamed [ null, null ]
+325 silly lockFile 48f7376d-roennoten-webpack-stream-patch-1 webpack-stream@github:jeroennoten/webpack-stream#patch-1
+326 verbose lock webpack-stream@github:jeroennoten/webpack-stream#patch-1 /home/kjs/.npm/48f7376d-roennoten-webpack-stream-patch-1.lock
+327 silly addNameRange { name: 'gulp-filter',
+327 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+327 silly addNameRange   hasData: false }
+328 silly addNameRange { name: 'buble', range: '>=0.12.3-0 <0.13.0-0', hasData: false }
+329 silly addNameRange { name: 'buble-loader',
+329 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+329 silly addNameRange   hasData: false }
+330 silly addNameRange { name: 'webpack',
+330 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+330 silly addNameRange   hasData: false }
+331 info addNameTag [ 'webpack-stream',
+331 info addNameTag   'github:jeroennoten/webpack-stream#patch-1' ]
+332 verbose url raw gulp-filter
+333 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-filter' ]
+334 verbose url resolved https://registry.npmjs.org/gulp-filter
+335 info trying registry request attempt 1 at 04:49:47
+336 verbose etag "58853724-767e"
+337 http GET https://registry.npmjs.org/gulp-filter
+338 verbose url raw buble-loader
+339 verbose url resolving [ 'https://registry.npmjs.org/', './buble-loader' ]
+340 verbose url resolved https://registry.npmjs.org/buble-loader
+341 info trying registry request attempt 1 at 04:49:47
+342 verbose etag "5852b081-2dc1"
+343 http GET https://registry.npmjs.org/buble-loader
+344 verbose url raw buble
+345 verbose url resolving [ 'https://registry.npmjs.org/', './buble' ]
+346 verbose url resolved https://registry.npmjs.org/buble
+347 info trying registry request attempt 1 at 04:49:47
+348 verbose etag "587160ba-2da35"
+349 http GET https://registry.npmjs.org/buble
+350 verbose url raw webpack
+351 verbose url resolving [ 'https://registry.npmjs.org/', './webpack' ]
+352 verbose url resolved https://registry.npmjs.org/webpack
+353 info trying registry request attempt 1 at 04:49:47
+354 verbose etag "5896d9b0-e4a53"
+355 http GET https://registry.npmjs.org/webpack
+356 verbose url raw webpack-stream
+357 verbose url resolving [ 'https://registry.npmjs.org/', './webpack-stream' ]
+358 verbose url resolved https://registry.npmjs.org/webpack-stream
+359 info trying registry request attempt 1 at 04:49:47
+360 verbose etag "5871e225-50c8"
+361 http GET https://registry.npmjs.org/webpack-stream
+362 silly lockFile 24fd92c7-bofh-node-modules-laravel-elixir tar:///home/kjs/site/bofh/node_modules/laravel-elixir
+363 silly lockFile 24fd92c7-bofh-node-modules-laravel-elixir tar:///home/kjs/site/bofh/node_modules/laravel-elixir
+364 silly lockFile e0843c62-avel-elixir-6-0-0-15-package-tgz tar:///home/kjs/.npm/laravel-elixir/6.0.0-15/package.tgz
+365 silly lockFile e0843c62-avel-elixir-6-0-0-15-package-tgz tar:///home/kjs/.npm/laravel-elixir/6.0.0-15/package.tgz
+366 info preinstall laravel-elixir@6.0.0-15
+367 verbose readDependencies using package.json deps
+368 verbose readDependencies using package.json deps
+369 verbose cache add [ 'clean-css@^3.4.12', null ]
+370 verbose cache add name=undefined spec="clean-css@^3.4.12" args=["clean-css@^3.4.12",null]
+371 verbose parsed url { protocol: null,
+371 verbose parsed url   slashes: null,
+371 verbose parsed url   auth: null,
+371 verbose parsed url   host: null,
+371 verbose parsed url   port: null,
+371 verbose parsed url   hostname: null,
+371 verbose parsed url   hash: null,
+371 verbose parsed url   search: null,
+371 verbose parsed url   query: null,
+371 verbose parsed url   pathname: 'clean-css@^3.4.12',
+371 verbose parsed url   path: 'clean-css@^3.4.12',
+371 verbose parsed url   href: 'clean-css@^3.4.12' }
+372 verbose cache add name="clean-css" spec="^3.4.12" args=["clean-css","^3.4.12"]
+373 verbose parsed url { protocol: null,
+373 verbose parsed url   slashes: null,
+373 verbose parsed url   auth: null,
+373 verbose parsed url   host: null,
+373 verbose parsed url   port: null,
+373 verbose parsed url   hostname: null,
+373 verbose parsed url   hash: null,
+373 verbose parsed url   search: null,
+373 verbose parsed url   query: null,
+373 verbose parsed url   pathname: '^3.4.12',
+373 verbose parsed url   path: '^3.4.12',
+373 verbose parsed url   href: '^3.4.12' }
+374 verbose addNamed [ 'clean-css', '^3.4.12' ]
+375 verbose addNamed [ null, '>=3.4.12-0 <4.0.0-0' ]
+376 silly lockFile ecfc6c0c-clean-css-3-4-12 clean-css@^3.4.12
+377 verbose lock clean-css@^3.4.12 /home/kjs/.npm/ecfc6c0c-clean-css-3-4-12.lock
+378 verbose cache add [ 'cli-table@^0.3.1', null ]
+379 verbose cache add name=undefined spec="cli-table@^0.3.1" args=["cli-table@^0.3.1",null]
+380 verbose parsed url { protocol: null,
+380 verbose parsed url   slashes: null,
+380 verbose parsed url   auth: null,
+380 verbose parsed url   host: null,
+380 verbose parsed url   port: null,
+380 verbose parsed url   hostname: null,
+380 verbose parsed url   hash: null,
+380 verbose parsed url   search: null,
+380 verbose parsed url   query: null,
+380 verbose parsed url   pathname: 'cli-table@^0.3.1',
+380 verbose parsed url   path: 'cli-table@^0.3.1',
+380 verbose parsed url   href: 'cli-table@^0.3.1' }
+381 verbose cache add name="cli-table" spec="^0.3.1" args=["cli-table","^0.3.1"]
+382 verbose parsed url { protocol: null,
+382 verbose parsed url   slashes: null,
+382 verbose parsed url   auth: null,
+382 verbose parsed url   host: null,
+382 verbose parsed url   port: null,
+382 verbose parsed url   hostname: null,
+382 verbose parsed url   hash: null,
+382 verbose parsed url   search: null,
+382 verbose parsed url   query: null,
+382 verbose parsed url   pathname: '^0.3.1',
+382 verbose parsed url   path: '^0.3.1',
+382 verbose parsed url   href: '^0.3.1' }
+383 verbose addNamed [ 'cli-table', '^0.3.1' ]
+384 verbose addNamed [ null, '>=0.3.1-0 <0.4.0-0' ]
+385 silly lockFile 602a4864-cli-table-0-3-1 cli-table@^0.3.1
+386 verbose lock cli-table@^0.3.1 /home/kjs/.npm/602a4864-cli-table-0-3-1.lock
+387 verbose cache add [ 'del@^2.2.0', null ]
+388 verbose cache add name=undefined spec="del@^2.2.0" args=["del@^2.2.0",null]
+389 verbose parsed url { protocol: null,
+389 verbose parsed url   slashes: null,
+389 verbose parsed url   auth: null,
+389 verbose parsed url   host: null,
+389 verbose parsed url   port: null,
+389 verbose parsed url   hostname: null,
+389 verbose parsed url   hash: null,
+389 verbose parsed url   search: null,
+389 verbose parsed url   query: null,
+389 verbose parsed url   pathname: 'del@^2.2.0',
+389 verbose parsed url   path: 'del@^2.2.0',
+389 verbose parsed url   href: 'del@^2.2.0' }
+390 verbose cache add name="del" spec="^2.2.0" args=["del","^2.2.0"]
+391 verbose parsed url { protocol: null,
+391 verbose parsed url   slashes: null,
+391 verbose parsed url   auth: null,
+391 verbose parsed url   host: null,
+391 verbose parsed url   port: null,
+391 verbose parsed url   hostname: null,
+391 verbose parsed url   hash: null,
+391 verbose parsed url   search: null,
+391 verbose parsed url   query: null,
+391 verbose parsed url   pathname: '^2.2.0',
+391 verbose parsed url   path: '^2.2.0',
+391 verbose parsed url   href: '^2.2.0' }
+392 verbose addNamed [ 'del', '^2.2.0' ]
+393 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+394 silly lockFile 89598b2c-del-2-2-0 del@^2.2.0
+395 verbose lock del@^2.2.0 /home/kjs/.npm/89598b2c-del-2-2-0.lock
+396 verbose cache add [ 'glob@^7.0.3', null ]
+397 verbose cache add name=undefined spec="glob@^7.0.3" args=["glob@^7.0.3",null]
+398 verbose parsed url { protocol: null,
+398 verbose parsed url   slashes: null,
+398 verbose parsed url   auth: null,
+398 verbose parsed url   host: null,
+398 verbose parsed url   port: null,
+398 verbose parsed url   hostname: null,
+398 verbose parsed url   hash: null,
+398 verbose parsed url   search: null,
+398 verbose parsed url   query: null,
+398 verbose parsed url   pathname: 'glob@^7.0.3',
+398 verbose parsed url   path: 'glob@^7.0.3',
+398 verbose parsed url   href: 'glob@^7.0.3' }
+399 verbose cache add name="glob" spec="^7.0.3" args=["glob","^7.0.3"]
+400 verbose parsed url { protocol: null,
+400 verbose parsed url   slashes: null,
+400 verbose parsed url   auth: null,
+400 verbose parsed url   host: null,
+400 verbose parsed url   port: null,
+400 verbose parsed url   hostname: null,
+400 verbose parsed url   hash: null,
+400 verbose parsed url   search: null,
+400 verbose parsed url   query: null,
+400 verbose parsed url   pathname: '^7.0.3',
+400 verbose parsed url   path: '^7.0.3',
+400 verbose parsed url   href: '^7.0.3' }
+401 verbose addNamed [ 'glob', '^7.0.3' ]
+402 verbose addNamed [ null, '>=7.0.3-0 <8.0.0-0' ]
+403 silly lockFile a2f41c87-glob-7-0-3 glob@^7.0.3
+404 verbose lock glob@^7.0.3 /home/kjs/.npm/a2f41c87-glob-7-0-3.lock
+405 silly addNameRange { name: 'clean-css',
+405 silly addNameRange   range: '>=3.4.12-0 <4.0.0-0',
+405 silly addNameRange   hasData: false }
+406 silly addNameRange { name: 'cli-table',
+406 silly addNameRange   range: '>=0.3.1-0 <0.4.0-0',
+406 silly addNameRange   hasData: false }
+407 verbose cache add [ 'gulp-autoprefixer@^3.1.0', null ]
+408 verbose cache add name=undefined spec="gulp-autoprefixer@^3.1.0" args=["gulp-autoprefixer@^3.1.0",null]
+409 verbose parsed url { protocol: null,
+409 verbose parsed url   slashes: null,
+409 verbose parsed url   auth: null,
+409 verbose parsed url   host: null,
+409 verbose parsed url   port: null,
+409 verbose parsed url   hostname: null,
+409 verbose parsed url   hash: null,
+409 verbose parsed url   search: null,
+409 verbose parsed url   query: null,
+409 verbose parsed url   pathname: 'gulp-autoprefixer@^3.1.0',
+409 verbose parsed url   path: 'gulp-autoprefixer@^3.1.0',
+409 verbose parsed url   href: 'gulp-autoprefixer@^3.1.0' }
+410 verbose cache add name="gulp-autoprefixer" spec="^3.1.0" args=["gulp-autoprefixer","^3.1.0"]
+411 verbose parsed url { protocol: null,
+411 verbose parsed url   slashes: null,
+411 verbose parsed url   auth: null,
+411 verbose parsed url   host: null,
+411 verbose parsed url   port: null,
+411 verbose parsed url   hostname: null,
+411 verbose parsed url   hash: null,
+411 verbose parsed url   search: null,
+411 verbose parsed url   query: null,
+411 verbose parsed url   pathname: '^3.1.0',
+411 verbose parsed url   path: '^3.1.0',
+411 verbose parsed url   href: '^3.1.0' }
+412 verbose addNamed [ 'gulp-autoprefixer', '^3.1.0' ]
+413 verbose addNamed [ null, '>=3.1.0-0 <4.0.0-0' ]
+414 silly lockFile d42afd85-gulp-autoprefixer-3-1-0 gulp-autoprefixer@^3.1.0
+415 verbose lock gulp-autoprefixer@^3.1.0 /home/kjs/.npm/d42afd85-gulp-autoprefixer-3-1-0.lock
+416 verbose cache add [ 'gulp-batch@^1.0.5', null ]
+417 verbose cache add name=undefined spec="gulp-batch@^1.0.5" args=["gulp-batch@^1.0.5",null]
+418 verbose parsed url { protocol: null,
+418 verbose parsed url   slashes: null,
+418 verbose parsed url   auth: null,
+418 verbose parsed url   host: null,
+418 verbose parsed url   port: null,
+418 verbose parsed url   hostname: null,
+418 verbose parsed url   hash: null,
+418 verbose parsed url   search: null,
+418 verbose parsed url   query: null,
+418 verbose parsed url   pathname: 'gulp-batch@^1.0.5',
+418 verbose parsed url   path: 'gulp-batch@^1.0.5',
+418 verbose parsed url   href: 'gulp-batch@^1.0.5' }
+419 verbose cache add name="gulp-batch" spec="^1.0.5" args=["gulp-batch","^1.0.5"]
+420 verbose parsed url { protocol: null,
+420 verbose parsed url   slashes: null,
+420 verbose parsed url   auth: null,
+420 verbose parsed url   host: null,
+420 verbose parsed url   port: null,
+420 verbose parsed url   hostname: null,
+420 verbose parsed url   hash: null,
+420 verbose parsed url   search: null,
+420 verbose parsed url   query: null,
+420 verbose parsed url   pathname: '^1.0.5',
+420 verbose parsed url   path: '^1.0.5',
+420 verbose parsed url   href: '^1.0.5' }
+421 verbose addNamed [ 'gulp-batch', '^1.0.5' ]
+422 verbose addNamed [ null, '>=1.0.5-0 <2.0.0-0' ]
+423 silly lockFile 0a167b19-gulp-batch-1-0-5 gulp-batch@^1.0.5
+424 verbose lock gulp-batch@^1.0.5 /home/kjs/.npm/0a167b19-gulp-batch-1-0-5.lock
+425 verbose cache add [ 'gulp-concat@^2.6.0', null ]
+426 verbose cache add name=undefined spec="gulp-concat@^2.6.0" args=["gulp-concat@^2.6.0",null]
+427 verbose parsed url { protocol: null,
+427 verbose parsed url   slashes: null,
+427 verbose parsed url   auth: null,
+427 verbose parsed url   host: null,
+427 verbose parsed url   port: null,
+427 verbose parsed url   hostname: null,
+427 verbose parsed url   hash: null,
+427 verbose parsed url   search: null,
+427 verbose parsed url   query: null,
+427 verbose parsed url   pathname: 'gulp-concat@^2.6.0',
+427 verbose parsed url   path: 'gulp-concat@^2.6.0',
+427 verbose parsed url   href: 'gulp-concat@^2.6.0' }
+428 verbose cache add name="gulp-concat" spec="^2.6.0" args=["gulp-concat","^2.6.0"]
+429 verbose parsed url { protocol: null,
+429 verbose parsed url   slashes: null,
+429 verbose parsed url   auth: null,
+429 verbose parsed url   host: null,
+429 verbose parsed url   port: null,
+429 verbose parsed url   hostname: null,
+429 verbose parsed url   hash: null,
+429 verbose parsed url   search: null,
+429 verbose parsed url   query: null,
+429 verbose parsed url   pathname: '^2.6.0',
+429 verbose parsed url   path: '^2.6.0',
+429 verbose parsed url   href: '^2.6.0' }
+430 verbose addNamed [ 'gulp-concat', '^2.6.0' ]
+431 verbose addNamed [ null, '>=2.6.0-0 <3.0.0-0' ]
+432 silly lockFile 743f1d08-gulp-concat-2-6-0 gulp-concat@^2.6.0
+433 verbose lock gulp-concat@^2.6.0 /home/kjs/.npm/743f1d08-gulp-concat-2-6-0.lock
+434 silly addNameRange { name: 'del', range: '>=2.2.0-0 <3.0.0-0', hasData: false }
+435 verbose cache add [ 'gulp-if@^2.0.0', null ]
+436 verbose cache add name=undefined spec="gulp-if@^2.0.0" args=["gulp-if@^2.0.0",null]
+437 verbose parsed url { protocol: null,
+437 verbose parsed url   slashes: null,
+437 verbose parsed url   auth: null,
+437 verbose parsed url   host: null,
+437 verbose parsed url   port: null,
+437 verbose parsed url   hostname: null,
+437 verbose parsed url   hash: null,
+437 verbose parsed url   search: null,
+437 verbose parsed url   query: null,
+437 verbose parsed url   pathname: 'gulp-if@^2.0.0',
+437 verbose parsed url   path: 'gulp-if@^2.0.0',
+437 verbose parsed url   href: 'gulp-if@^2.0.0' }
+438 verbose cache add name="gulp-if" spec="^2.0.0" args=["gulp-if","^2.0.0"]
+439 verbose parsed url { protocol: null,
+439 verbose parsed url   slashes: null,
+439 verbose parsed url   auth: null,
+439 verbose parsed url   host: null,
+439 verbose parsed url   port: null,
+439 verbose parsed url   hostname: null,
+439 verbose parsed url   hash: null,
+439 verbose parsed url   search: null,
+439 verbose parsed url   query: null,
+439 verbose parsed url   pathname: '^2.0.0',
+439 verbose parsed url   path: '^2.0.0',
+439 verbose parsed url   href: '^2.0.0' }
+440 verbose addNamed [ 'gulp-if', '^2.0.0' ]
+441 verbose addNamed [ null, '>=2.0.0-0 <3.0.0-0' ]
+442 silly lockFile c571e3df-gulp-if-2-0-0 gulp-if@^2.0.0
+443 verbose lock gulp-if@^2.0.0 /home/kjs/.npm/c571e3df-gulp-if-2-0-0.lock
+444 verbose cache add [ 'gulp-less@^3.0.5', null ]
+445 verbose cache add name=undefined spec="gulp-less@^3.0.5" args=["gulp-less@^3.0.5",null]
+446 verbose parsed url { protocol: null,
+446 verbose parsed url   slashes: null,
+446 verbose parsed url   auth: null,
+446 verbose parsed url   host: null,
+446 verbose parsed url   port: null,
+446 verbose parsed url   hostname: null,
+446 verbose parsed url   hash: null,
+446 verbose parsed url   search: null,
+446 verbose parsed url   query: null,
+446 verbose parsed url   pathname: 'gulp-less@^3.0.5',
+446 verbose parsed url   path: 'gulp-less@^3.0.5',
+446 verbose parsed url   href: 'gulp-less@^3.0.5' }
+447 verbose cache add name="gulp-less" spec="^3.0.5" args=["gulp-less","^3.0.5"]
+448 verbose parsed url { protocol: null,
+448 verbose parsed url   slashes: null,
+448 verbose parsed url   auth: null,
+448 verbose parsed url   host: null,
+448 verbose parsed url   port: null,
+448 verbose parsed url   hostname: null,
+448 verbose parsed url   hash: null,
+448 verbose parsed url   search: null,
+448 verbose parsed url   query: null,
+448 verbose parsed url   pathname: '^3.0.5',
+448 verbose parsed url   path: '^3.0.5',
+448 verbose parsed url   href: '^3.0.5' }
+449 verbose addNamed [ 'gulp-less', '^3.0.5' ]
+450 verbose addNamed [ null, '>=3.0.5-0 <4.0.0-0' ]
+451 silly lockFile c6611a93-gulp-less-3-0-5 gulp-less@^3.0.5
+452 verbose lock gulp-less@^3.0.5 /home/kjs/.npm/c6611a93-gulp-less-3-0-5.lock
+453 silly addNameRange { name: 'glob', range: '>=7.0.3-0 <8.0.0-0', hasData: false }
+454 silly addNameRange { name: 'gulp-autoprefixer',
+454 silly addNameRange   range: '>=3.1.0-0 <4.0.0-0',
+454 silly addNameRange   hasData: false }
+455 silly addNameRange { name: 'gulp-batch',
+455 silly addNameRange   range: '>=1.0.5-0 <2.0.0-0',
+455 silly addNameRange   hasData: false }
+456 verbose cache add [ 'gulp-load-plugins@^1.2.2', null ]
+457 verbose cache add name=undefined spec="gulp-load-plugins@^1.2.2" args=["gulp-load-plugins@^1.2.2",null]
+458 verbose parsed url { protocol: null,
+458 verbose parsed url   slashes: null,
+458 verbose parsed url   auth: null,
+458 verbose parsed url   host: null,
+458 verbose parsed url   port: null,
+458 verbose parsed url   hostname: null,
+458 verbose parsed url   hash: null,
+458 verbose parsed url   search: null,
+458 verbose parsed url   query: null,
+458 verbose parsed url   pathname: 'gulp-load-plugins@^1.2.2',
+458 verbose parsed url   path: 'gulp-load-plugins@^1.2.2',
+458 verbose parsed url   href: 'gulp-load-plugins@^1.2.2' }
+459 verbose cache add name="gulp-load-plugins" spec="^1.2.2" args=["gulp-load-plugins","^1.2.2"]
+460 verbose parsed url { protocol: null,
+460 verbose parsed url   slashes: null,
+460 verbose parsed url   auth: null,
+460 verbose parsed url   host: null,
+460 verbose parsed url   port: null,
+460 verbose parsed url   hostname: null,
+460 verbose parsed url   hash: null,
+460 verbose parsed url   search: null,
+460 verbose parsed url   query: null,
+460 verbose parsed url   pathname: '^1.2.2',
+460 verbose parsed url   path: '^1.2.2',
+460 verbose parsed url   href: '^1.2.2' }
+461 verbose addNamed [ 'gulp-load-plugins', '^1.2.2' ]
+462 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+463 silly lockFile 5c952f06-gulp-load-plugins-1-2-2 gulp-load-plugins@^1.2.2
+464 verbose lock gulp-load-plugins@^1.2.2 /home/kjs/.npm/5c952f06-gulp-load-plugins-1-2-2.lock
+465 verbose cache add [ 'gulp-notify@^2.2.0', null ]
+466 verbose cache add name=undefined spec="gulp-notify@^2.2.0" args=["gulp-notify@^2.2.0",null]
+467 verbose parsed url { protocol: null,
+467 verbose parsed url   slashes: null,
+467 verbose parsed url   auth: null,
+467 verbose parsed url   host: null,
+467 verbose parsed url   port: null,
+467 verbose parsed url   hostname: null,
+467 verbose parsed url   hash: null,
+467 verbose parsed url   search: null,
+467 verbose parsed url   query: null,
+467 verbose parsed url   pathname: 'gulp-notify@^2.2.0',
+467 verbose parsed url   path: 'gulp-notify@^2.2.0',
+467 verbose parsed url   href: 'gulp-notify@^2.2.0' }
+468 verbose cache add name="gulp-notify" spec="^2.2.0" args=["gulp-notify","^2.2.0"]
+469 verbose parsed url { protocol: null,
+469 verbose parsed url   slashes: null,
+469 verbose parsed url   auth: null,
+469 verbose parsed url   host: null,
+469 verbose parsed url   port: null,
+469 verbose parsed url   hostname: null,
+469 verbose parsed url   hash: null,
+469 verbose parsed url   search: null,
+469 verbose parsed url   query: null,
+469 verbose parsed url   pathname: '^2.2.0',
+469 verbose parsed url   path: '^2.2.0',
+469 verbose parsed url   href: '^2.2.0' }
+470 verbose addNamed [ 'gulp-notify', '^2.2.0' ]
+471 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+472 silly lockFile a8c5b448-gulp-notify-2-2-0 gulp-notify@^2.2.0
+473 verbose lock gulp-notify@^2.2.0 /home/kjs/.npm/a8c5b448-gulp-notify-2-2-0.lock
+474 verbose cache add [ 'gulp-rename@^1.2.2', null ]
+475 verbose cache add name=undefined spec="gulp-rename@^1.2.2" args=["gulp-rename@^1.2.2",null]
+476 verbose parsed url { protocol: null,
+476 verbose parsed url   slashes: null,
+476 verbose parsed url   auth: null,
+476 verbose parsed url   host: null,
+476 verbose parsed url   port: null,
+476 verbose parsed url   hostname: null,
+476 verbose parsed url   hash: null,
+476 verbose parsed url   search: null,
+476 verbose parsed url   query: null,
+476 verbose parsed url   pathname: 'gulp-rename@^1.2.2',
+476 verbose parsed url   path: 'gulp-rename@^1.2.2',
+476 verbose parsed url   href: 'gulp-rename@^1.2.2' }
+477 verbose cache add name="gulp-rename" spec="^1.2.2" args=["gulp-rename","^1.2.2"]
+478 verbose parsed url { protocol: null,
+478 verbose parsed url   slashes: null,
+478 verbose parsed url   auth: null,
+478 verbose parsed url   host: null,
+478 verbose parsed url   port: null,
+478 verbose parsed url   hostname: null,
+478 verbose parsed url   hash: null,
+478 verbose parsed url   search: null,
+478 verbose parsed url   query: null,
+478 verbose parsed url   pathname: '^1.2.2',
+478 verbose parsed url   path: '^1.2.2',
+478 verbose parsed url   href: '^1.2.2' }
+479 verbose addNamed [ 'gulp-rename', '^1.2.2' ]
+480 verbose addNamed [ null, '>=1.2.2-0 <2.0.0-0' ]
+481 silly lockFile 1035ba1c-gulp-rename-1-2-2 gulp-rename@^1.2.2
+482 verbose lock gulp-rename@^1.2.2 /home/kjs/.npm/1035ba1c-gulp-rename-1-2-2.lock
+483 verbose cache add [ 'gulp-rev@^7.0.0', null ]
+484 verbose cache add name=undefined spec="gulp-rev@^7.0.0" args=["gulp-rev@^7.0.0",null]
+485 verbose parsed url { protocol: null,
+485 verbose parsed url   slashes: null,
+485 verbose parsed url   auth: null,
+485 verbose parsed url   host: null,
+485 verbose parsed url   port: null,
+485 verbose parsed url   hostname: null,
+485 verbose parsed url   hash: null,
+485 verbose parsed url   search: null,
+485 verbose parsed url   query: null,
+485 verbose parsed url   pathname: 'gulp-rev@^7.0.0',
+485 verbose parsed url   path: 'gulp-rev@^7.0.0',
+485 verbose parsed url   href: 'gulp-rev@^7.0.0' }
+486 verbose cache add name="gulp-rev" spec="^7.0.0" args=["gulp-rev","^7.0.0"]
+487 verbose parsed url { protocol: null,
+487 verbose parsed url   slashes: null,
+487 verbose parsed url   auth: null,
+487 verbose parsed url   host: null,
+487 verbose parsed url   port: null,
+487 verbose parsed url   hostname: null,
+487 verbose parsed url   hash: null,
+487 verbose parsed url   search: null,
+487 verbose parsed url   query: null,
+487 verbose parsed url   pathname: '^7.0.0',
+487 verbose parsed url   path: '^7.0.0',
+487 verbose parsed url   href: '^7.0.0' }
+488 verbose addNamed [ 'gulp-rev', '^7.0.0' ]
+489 verbose addNamed [ null, '>=7.0.0-0 <8.0.0-0' ]
+490 silly lockFile 9d6b0811-gulp-rev-7-0-0 gulp-rev@^7.0.0
+491 verbose lock gulp-rev@^7.0.0 /home/kjs/.npm/9d6b0811-gulp-rev-7-0-0.lock
+492 silly addNameRange { name: 'gulp-concat',
+492 silly addNameRange   range: '>=2.6.0-0 <3.0.0-0',
+492 silly addNameRange   hasData: false }
+493 silly addNameRange { name: 'gulp-if', range: '>=2.0.0-0 <3.0.0-0', hasData: false }
+494 verbose cache add [ 'gulp-rev-replace@^0.4.3', null ]
+495 verbose cache add name=undefined spec="gulp-rev-replace@^0.4.3" args=["gulp-rev-replace@^0.4.3",null]
+496 verbose parsed url { protocol: null,
+496 verbose parsed url   slashes: null,
+496 verbose parsed url   auth: null,
+496 verbose parsed url   host: null,
+496 verbose parsed url   port: null,
+496 verbose parsed url   hostname: null,
+496 verbose parsed url   hash: null,
+496 verbose parsed url   search: null,
+496 verbose parsed url   query: null,
+496 verbose parsed url   pathname: 'gulp-rev-replace@^0.4.3',
+496 verbose parsed url   path: 'gulp-rev-replace@^0.4.3',
+496 verbose parsed url   href: 'gulp-rev-replace@^0.4.3' }
+497 verbose cache add name="gulp-rev-replace" spec="^0.4.3" args=["gulp-rev-replace","^0.4.3"]
+498 verbose parsed url { protocol: null,
+498 verbose parsed url   slashes: null,
+498 verbose parsed url   auth: null,
+498 verbose parsed url   host: null,
+498 verbose parsed url   port: null,
+498 verbose parsed url   hostname: null,
+498 verbose parsed url   hash: null,
+498 verbose parsed url   search: null,
+498 verbose parsed url   query: null,
+498 verbose parsed url   pathname: '^0.4.3',
+498 verbose parsed url   path: '^0.4.3',
+498 verbose parsed url   href: '^0.4.3' }
+499 verbose addNamed [ 'gulp-rev-replace', '^0.4.3' ]
+500 verbose addNamed [ null, '>=0.4.3-0 <0.5.0-0' ]
+501 silly lockFile c9fb0094-gulp-rev-replace-0-4-3 gulp-rev-replace@^0.4.3
+502 verbose lock gulp-rev-replace@^0.4.3 /home/kjs/.npm/c9fb0094-gulp-rev-replace-0-4-3.lock
+503 verbose cache add [ 'gulp-sass@^2.3.1', null ]
+504 verbose cache add name=undefined spec="gulp-sass@^2.3.1" args=["gulp-sass@^2.3.1",null]
+505 verbose parsed url { protocol: null,
+505 verbose parsed url   slashes: null,
+505 verbose parsed url   auth: null,
+505 verbose parsed url   host: null,
+505 verbose parsed url   port: null,
+505 verbose parsed url   hostname: null,
+505 verbose parsed url   hash: null,
+505 verbose parsed url   search: null,
+505 verbose parsed url   query: null,
+505 verbose parsed url   pathname: 'gulp-sass@^2.3.1',
+505 verbose parsed url   path: 'gulp-sass@^2.3.1',
+505 verbose parsed url   href: 'gulp-sass@^2.3.1' }
+506 verbose cache add name="gulp-sass" spec="^2.3.1" args=["gulp-sass","^2.3.1"]
+507 verbose parsed url { protocol: null,
+507 verbose parsed url   slashes: null,
+507 verbose parsed url   auth: null,
+507 verbose parsed url   host: null,
+507 verbose parsed url   port: null,
+507 verbose parsed url   hostname: null,
+507 verbose parsed url   hash: null,
+507 verbose parsed url   search: null,
+507 verbose parsed url   query: null,
+507 verbose parsed url   pathname: '^2.3.1',
+507 verbose parsed url   path: '^2.3.1',
+507 verbose parsed url   href: '^2.3.1' }
+508 verbose addNamed [ 'gulp-sass', '^2.3.1' ]
+509 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+510 silly lockFile c42be1d7-gulp-sass-2-3-1 gulp-sass@^2.3.1
+511 verbose lock gulp-sass@^2.3.1 /home/kjs/.npm/c42be1d7-gulp-sass-2-3-1.lock
+512 verbose cache add [ 'gulp-shell@^0.5.2', null ]
+513 verbose cache add name=undefined spec="gulp-shell@^0.5.2" args=["gulp-shell@^0.5.2",null]
+514 verbose parsed url { protocol: null,
+514 verbose parsed url   slashes: null,
+514 verbose parsed url   auth: null,
+514 verbose parsed url   host: null,
+514 verbose parsed url   port: null,
+514 verbose parsed url   hostname: null,
+514 verbose parsed url   hash: null,
+514 verbose parsed url   search: null,
+514 verbose parsed url   query: null,
+514 verbose parsed url   pathname: 'gulp-shell@^0.5.2',
+514 verbose parsed url   path: 'gulp-shell@^0.5.2',
+514 verbose parsed url   href: 'gulp-shell@^0.5.2' }
+515 verbose cache add name="gulp-shell" spec="^0.5.2" args=["gulp-shell","^0.5.2"]
+516 verbose parsed url { protocol: null,
+516 verbose parsed url   slashes: null,
+516 verbose parsed url   auth: null,
+516 verbose parsed url   host: null,
+516 verbose parsed url   port: null,
+516 verbose parsed url   hostname: null,
+516 verbose parsed url   hash: null,
+516 verbose parsed url   search: null,
+516 verbose parsed url   query: null,
+516 verbose parsed url   pathname: '^0.5.2',
+516 verbose parsed url   path: '^0.5.2',
+516 verbose parsed url   href: '^0.5.2' }
+517 verbose addNamed [ 'gulp-shell', '^0.5.2' ]
+518 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+519 silly lockFile d958323e-gulp-shell-0-5-2 gulp-shell@^0.5.2
+520 verbose lock gulp-shell@^0.5.2 /home/kjs/.npm/d958323e-gulp-shell-0-5-2.lock
+521 silly addNameRange { name: 'gulp-less',
+521 silly addNameRange   range: '>=3.0.5-0 <4.0.0-0',
+521 silly addNameRange   hasData: false }
+522 silly addNameRange { name: 'gulp-load-plugins',
+522 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+522 silly addNameRange   hasData: false }
+523 silly addNameRange { name: 'gulp-notify',
+523 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+523 silly addNameRange   hasData: false }
+524 silly addNameRange { name: 'gulp-rename',
+524 silly addNameRange   range: '>=1.2.2-0 <2.0.0-0',
+524 silly addNameRange   hasData: false }
+525 verbose cache add [ 'gulp-sourcemaps@^1.6.0', null ]
+526 verbose cache add name=undefined spec="gulp-sourcemaps@^1.6.0" args=["gulp-sourcemaps@^1.6.0",null]
+527 verbose parsed url { protocol: null,
+527 verbose parsed url   slashes: null,
+527 verbose parsed url   auth: null,
+527 verbose parsed url   host: null,
+527 verbose parsed url   port: null,
+527 verbose parsed url   hostname: null,
+527 verbose parsed url   hash: null,
+527 verbose parsed url   search: null,
+527 verbose parsed url   query: null,
+527 verbose parsed url   pathname: 'gulp-sourcemaps@^1.6.0',
+527 verbose parsed url   path: 'gulp-sourcemaps@^1.6.0',
+527 verbose parsed url   href: 'gulp-sourcemaps@^1.6.0' }
+528 verbose cache add name="gulp-sourcemaps" spec="^1.6.0" args=["gulp-sourcemaps","^1.6.0"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '^1.6.0',
+529 verbose parsed url   path: '^1.6.0',
+529 verbose parsed url   href: '^1.6.0' }
+530 verbose addNamed [ 'gulp-sourcemaps', '^1.6.0' ]
+531 verbose addNamed [ null, '>=1.6.0-0 <2.0.0-0' ]
+532 silly lockFile c55741cd-gulp-sourcemaps-1-6-0 gulp-sourcemaps@^1.6.0
+533 verbose lock gulp-sourcemaps@^1.6.0 /home/kjs/.npm/c55741cd-gulp-sourcemaps-1-6-0.lock
+534 verbose cache add [ 'gulp-uglify@^1.5.3', null ]
+535 verbose cache add name=undefined spec="gulp-uglify@^1.5.3" args=["gulp-uglify@^1.5.3",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'gulp-uglify@^1.5.3',
+536 verbose parsed url   path: 'gulp-uglify@^1.5.3',
+536 verbose parsed url   href: 'gulp-uglify@^1.5.3' }
+537 verbose cache add name="gulp-uglify" spec="^1.5.3" args=["gulp-uglify","^1.5.3"]
+538 verbose parsed url { protocol: null,
+538 verbose parsed url   slashes: null,
+538 verbose parsed url   auth: null,
+538 verbose parsed url   host: null,
+538 verbose parsed url   port: null,
+538 verbose parsed url   hostname: null,
+538 verbose parsed url   hash: null,
+538 verbose parsed url   search: null,
+538 verbose parsed url   query: null,
+538 verbose parsed url   pathname: '^1.5.3',
+538 verbose parsed url   path: '^1.5.3',
+538 verbose parsed url   href: '^1.5.3' }
+539 verbose addNamed [ 'gulp-uglify', '^1.5.3' ]
+540 verbose addNamed [ null, '>=1.5.3-0 <2.0.0-0' ]
+541 silly lockFile 1d3bd04f-gulp-uglify-1-5-3 gulp-uglify@^1.5.3
+542 verbose lock gulp-uglify@^1.5.3 /home/kjs/.npm/1d3bd04f-gulp-uglify-1-5-3.lock
+543 verbose cache add [ 'gulp-util@^3.0.7', null ]
+544 verbose cache add name=undefined spec="gulp-util@^3.0.7" args=["gulp-util@^3.0.7",null]
+545 verbose parsed url { protocol: null,
+545 verbose parsed url   slashes: null,
+545 verbose parsed url   auth: null,
+545 verbose parsed url   host: null,
+545 verbose parsed url   port: null,
+545 verbose parsed url   hostname: null,
+545 verbose parsed url   hash: null,
+545 verbose parsed url   search: null,
+545 verbose parsed url   query: null,
+545 verbose parsed url   pathname: 'gulp-util@^3.0.7',
+545 verbose parsed url   path: 'gulp-util@^3.0.7',
+545 verbose parsed url   href: 'gulp-util@^3.0.7' }
+546 verbose cache add name="gulp-util" spec="^3.0.7" args=["gulp-util","^3.0.7"]
+547 verbose parsed url { protocol: null,
+547 verbose parsed url   slashes: null,
+547 verbose parsed url   auth: null,
+547 verbose parsed url   host: null,
+547 verbose parsed url   port: null,
+547 verbose parsed url   hostname: null,
+547 verbose parsed url   hash: null,
+547 verbose parsed url   search: null,
+547 verbose parsed url   query: null,
+547 verbose parsed url   pathname: '^3.0.7',
+547 verbose parsed url   path: '^3.0.7',
+547 verbose parsed url   href: '^3.0.7' }
+548 verbose addNamed [ 'gulp-util', '^3.0.7' ]
+549 verbose addNamed [ null, '>=3.0.7-0 <4.0.0-0' ]
+550 silly lockFile e02585f0-gulp-util-3-0-7 gulp-util@^3.0.7
+551 verbose lock gulp-util@^3.0.7 /home/kjs/.npm/e02585f0-gulp-util-3-0-7.lock
+552 silly addNameRange { name: 'gulp-rev', range: '>=7.0.0-0 <8.0.0-0', hasData: false }
+553 verbose url raw clean-css
+554 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+555 verbose url resolved https://registry.npmjs.org/clean-css
+556 info trying registry request attempt 1 at 04:49:47
+557 verbose etag "5897263f-3eef9"
+558 http GET https://registry.npmjs.org/clean-css
+559 verbose url raw cli-table
+560 verbose url resolving [ 'https://registry.npmjs.org/', './cli-table' ]
+561 verbose url resolved https://registry.npmjs.org/cli-table
+562 info trying registry request attempt 1 at 04:49:47
+563 verbose etag "58911fb5-2d3d"
+564 http GET https://registry.npmjs.org/cli-table
+565 silly addNameRange { name: 'gulp-rev-replace',
+565 silly addNameRange   range: '>=0.4.3-0 <0.5.0-0',
+565 silly addNameRange   hasData: false }
+566 silly addNameRange { name: 'gulp-sass',
+566 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+566 silly addNameRange   hasData: false }
+567 verbose cache add [ 'parse-filepath@^1.0.1', null ]
+568 verbose cache add name=undefined spec="parse-filepath@^1.0.1" args=["parse-filepath@^1.0.1",null]
+569 verbose parsed url { protocol: null,
+569 verbose parsed url   slashes: null,
+569 verbose parsed url   auth: null,
+569 verbose parsed url   host: null,
+569 verbose parsed url   port: null,
+569 verbose parsed url   hostname: null,
+569 verbose parsed url   hash: null,
+569 verbose parsed url   search: null,
+569 verbose parsed url   query: null,
+569 verbose parsed url   pathname: 'parse-filepath@^1.0.1',
+569 verbose parsed url   path: 'parse-filepath@^1.0.1',
+569 verbose parsed url   href: 'parse-filepath@^1.0.1' }
+570 verbose cache add name="parse-filepath" spec="^1.0.1" args=["parse-filepath","^1.0.1"]
+571 verbose parsed url { protocol: null,
+571 verbose parsed url   slashes: null,
+571 verbose parsed url   auth: null,
+571 verbose parsed url   host: null,
+571 verbose parsed url   port: null,
+571 verbose parsed url   hostname: null,
+571 verbose parsed url   hash: null,
+571 verbose parsed url   search: null,
+571 verbose parsed url   query: null,
+571 verbose parsed url   pathname: '^1.0.1',
+571 verbose parsed url   path: '^1.0.1',
+571 verbose parsed url   href: '^1.0.1' }
+572 verbose addNamed [ 'parse-filepath', '^1.0.1' ]
+573 verbose addNamed [ null, '>=1.0.1-0 <2.0.0-0' ]
+574 silly lockFile 92dd6a09-parse-filepath-1-0-1 parse-filepath@^1.0.1
+575 verbose lock parse-filepath@^1.0.1 /home/kjs/.npm/92dd6a09-parse-filepath-1-0-1.lock
+576 verbose cache add [ 'path@^0.12.7', null ]
+577 verbose cache add name=undefined spec="path@^0.12.7" args=["path@^0.12.7",null]
+578 verbose parsed url { protocol: null,
+578 verbose parsed url   slashes: null,
+578 verbose parsed url   auth: null,
+578 verbose parsed url   host: null,
+578 verbose parsed url   port: null,
+578 verbose parsed url   hostname: null,
+578 verbose parsed url   hash: null,
+578 verbose parsed url   search: null,
+578 verbose parsed url   query: null,
+578 verbose parsed url   pathname: 'path@^0.12.7',
+578 verbose parsed url   path: 'path@^0.12.7',
+578 verbose parsed url   href: 'path@^0.12.7' }
+579 verbose cache add name="path" spec="^0.12.7" args=["path","^0.12.7"]
+580 verbose parsed url { protocol: null,
+580 verbose parsed url   slashes: null,
+580 verbose parsed url   auth: null,
+580 verbose parsed url   host: null,
+580 verbose parsed url   port: null,
+580 verbose parsed url   hostname: null,
+580 verbose parsed url   hash: null,
+580 verbose parsed url   search: null,
+580 verbose parsed url   query: null,
+580 verbose parsed url   pathname: '^0.12.7',
+580 verbose parsed url   path: '^0.12.7',
+580 verbose parsed url   href: '^0.12.7' }
+581 verbose addNamed [ 'path', '^0.12.7' ]
+582 verbose addNamed [ null, '>=0.12.7-0 <0.13.0-0' ]
+583 silly lockFile b89ee5ab-path-0-12-7 path@^0.12.7
+584 verbose lock path@^0.12.7 /home/kjs/.npm/b89ee5ab-path-0-12-7.lock
+585 verbose cache add [ 'q@^1.4.1', null ]
+586 verbose cache add name=undefined spec="q@^1.4.1" args=["q@^1.4.1",null]
+587 verbose parsed url { protocol: null,
+587 verbose parsed url   slashes: null,
+587 verbose parsed url   auth: null,
+587 verbose parsed url   host: null,
+587 verbose parsed url   port: null,
+587 verbose parsed url   hostname: null,
+587 verbose parsed url   hash: null,
+587 verbose parsed url   search: null,
+587 verbose parsed url   query: null,
+587 verbose parsed url   pathname: 'q@^1.4.1',
+587 verbose parsed url   path: 'q@^1.4.1',
+587 verbose parsed url   href: 'q@^1.4.1' }
+588 verbose cache add name="q" spec="^1.4.1" args=["q","^1.4.1"]
+589 verbose parsed url { protocol: null,
+589 verbose parsed url   slashes: null,
+589 verbose parsed url   auth: null,
+589 verbose parsed url   host: null,
+589 verbose parsed url   port: null,
+589 verbose parsed url   hostname: null,
+589 verbose parsed url   hash: null,
+589 verbose parsed url   search: null,
+589 verbose parsed url   query: null,
+589 verbose parsed url   pathname: '^1.4.1',
+589 verbose parsed url   path: '^1.4.1',
+589 verbose parsed url   href: '^1.4.1' }
+590 verbose addNamed [ 'q', '^1.4.1' ]
+591 verbose addNamed [ null, '>=1.4.1-0 <2.0.0-0' ]
+592 silly lockFile efb9d2e2-q-1-4-1 q@^1.4.1
+593 verbose lock q@^1.4.1 /home/kjs/.npm/efb9d2e2-q-1-4-1.lock
+594 verbose cache add [ 'require-dir@^0.3.0', null ]
+595 verbose cache add name=undefined spec="require-dir@^0.3.0" args=["require-dir@^0.3.0",null]
+596 verbose parsed url { protocol: null,
+596 verbose parsed url   slashes: null,
+596 verbose parsed url   auth: null,
+596 verbose parsed url   host: null,
+596 verbose parsed url   port: null,
+596 verbose parsed url   hostname: null,
+596 verbose parsed url   hash: null,
+596 verbose parsed url   search: null,
+596 verbose parsed url   query: null,
+596 verbose parsed url   pathname: 'require-dir@^0.3.0',
+596 verbose parsed url   path: 'require-dir@^0.3.0',
+596 verbose parsed url   href: 'require-dir@^0.3.0' }
+597 verbose cache add name="require-dir" spec="^0.3.0" args=["require-dir","^0.3.0"]
+598 verbose parsed url { protocol: null,
+598 verbose parsed url   slashes: null,
+598 verbose parsed url   auth: null,
+598 verbose parsed url   host: null,
+598 verbose parsed url   port: null,
+598 verbose parsed url   hostname: null,
+598 verbose parsed url   hash: null,
+598 verbose parsed url   search: null,
+598 verbose parsed url   query: null,
+598 verbose parsed url   pathname: '^0.3.0',
+598 verbose parsed url   path: '^0.3.0',
+598 verbose parsed url   href: '^0.3.0' }
+599 verbose addNamed [ 'require-dir', '^0.3.0' ]
+600 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+601 silly lockFile 7e03fb3c-require-dir-0-3-0 require-dir@^0.3.0
+602 verbose lock require-dir@^0.3.0 /home/kjs/.npm/7e03fb3c-require-dir-0-3-0.lock
+603 verbose cache add [ 'run-sequence@^1.1.5', null ]
+604 verbose cache add name=undefined spec="run-sequence@^1.1.5" args=["run-sequence@^1.1.5",null]
+605 verbose parsed url { protocol: null,
+605 verbose parsed url   slashes: null,
+605 verbose parsed url   auth: null,
+605 verbose parsed url   host: null,
+605 verbose parsed url   port: null,
+605 verbose parsed url   hostname: null,
+605 verbose parsed url   hash: null,
+605 verbose parsed url   search: null,
+605 verbose parsed url   query: null,
+605 verbose parsed url   pathname: 'run-sequence@^1.1.5',
+605 verbose parsed url   path: 'run-sequence@^1.1.5',
+605 verbose parsed url   href: 'run-sequence@^1.1.5' }
+606 verbose cache add name="run-sequence" spec="^1.1.5" args=["run-sequence","^1.1.5"]
+607 verbose parsed url { protocol: null,
+607 verbose parsed url   slashes: null,
+607 verbose parsed url   auth: null,
+607 verbose parsed url   host: null,
+607 verbose parsed url   port: null,
+607 verbose parsed url   hostname: null,
+607 verbose parsed url   hash: null,
+607 verbose parsed url   search: null,
+607 verbose parsed url   query: null,
+607 verbose parsed url   pathname: '^1.1.5',
+607 verbose parsed url   path: '^1.1.5',
+607 verbose parsed url   href: '^1.1.5' }
+608 verbose addNamed [ 'run-sequence', '^1.1.5' ]
+609 verbose addNamed [ null, '>=1.1.5-0 <2.0.0-0' ]
+610 silly lockFile d9fe3c88-run-sequence-1-1-5 run-sequence@^1.1.5
+611 verbose lock run-sequence@^1.1.5 /home/kjs/.npm/d9fe3c88-run-sequence-1-1-5.lock
+612 verbose cache add [ 'underscore@^1.8.3', null ]
+613 verbose cache add name=undefined spec="underscore@^1.8.3" args=["underscore@^1.8.3",null]
+614 verbose parsed url { protocol: null,
+614 verbose parsed url   slashes: null,
+614 verbose parsed url   auth: null,
+614 verbose parsed url   host: null,
+614 verbose parsed url   port: null,
+614 verbose parsed url   hostname: null,
+614 verbose parsed url   hash: null,
+614 verbose parsed url   search: null,
+614 verbose parsed url   query: null,
+614 verbose parsed url   pathname: 'underscore@^1.8.3',
+614 verbose parsed url   path: 'underscore@^1.8.3',
+614 verbose parsed url   href: 'underscore@^1.8.3' }
+615 verbose cache add name="underscore" spec="^1.8.3" args=["underscore","^1.8.3"]
+616 verbose parsed url { protocol: null,
+616 verbose parsed url   slashes: null,
+616 verbose parsed url   auth: null,
+616 verbose parsed url   host: null,
+616 verbose parsed url   port: null,
+616 verbose parsed url   hostname: null,
+616 verbose parsed url   hash: null,
+616 verbose parsed url   search: null,
+616 verbose parsed url   query: null,
+616 verbose parsed url   pathname: '^1.8.3',
+616 verbose parsed url   path: '^1.8.3',
+616 verbose parsed url   href: '^1.8.3' }
+617 verbose addNamed [ 'underscore', '^1.8.3' ]
+618 verbose addNamed [ null, '>=1.8.3-0 <2.0.0-0' ]
+619 silly lockFile 763d0bdd-underscore-1-8-3 underscore@^1.8.3
+620 verbose lock underscore@^1.8.3 /home/kjs/.npm/763d0bdd-underscore-1-8-3.lock
+621 verbose cache add [ 'vinyl-map2@^1.2.1', null ]
+622 verbose cache add name=undefined spec="vinyl-map2@^1.2.1" args=["vinyl-map2@^1.2.1",null]
+623 verbose parsed url { protocol: null,
+623 verbose parsed url   slashes: null,
+623 verbose parsed url   auth: null,
+623 verbose parsed url   host: null,
+623 verbose parsed url   port: null,
+623 verbose parsed url   hostname: null,
+623 verbose parsed url   hash: null,
+623 verbose parsed url   search: null,
+623 verbose parsed url   query: null,
+623 verbose parsed url   pathname: 'vinyl-map2@^1.2.1',
+623 verbose parsed url   path: 'vinyl-map2@^1.2.1',
+623 verbose parsed url   href: 'vinyl-map2@^1.2.1' }
+624 verbose cache add name="vinyl-map2" spec="^1.2.1" args=["vinyl-map2","^1.2.1"]
+625 verbose parsed url { protocol: null,
+625 verbose parsed url   slashes: null,
+625 verbose parsed url   auth: null,
+625 verbose parsed url   host: null,
+625 verbose parsed url   port: null,
+625 verbose parsed url   hostname: null,
+625 verbose parsed url   hash: null,
+625 verbose parsed url   search: null,
+625 verbose parsed url   query: null,
+625 verbose parsed url   pathname: '^1.2.1',
+625 verbose parsed url   path: '^1.2.1',
+625 verbose parsed url   href: '^1.2.1' }
+626 verbose addNamed [ 'vinyl-map2', '^1.2.1' ]
+627 verbose addNamed [ null, '>=1.2.1-0 <2.0.0-0' ]
+628 silly lockFile e9b9f231-vinyl-map2-1-2-1 vinyl-map2@^1.2.1
+629 verbose lock vinyl-map2@^1.2.1 /home/kjs/.npm/e9b9f231-vinyl-map2-1-2-1.lock
+630 silly addNameRange { name: 'gulp-shell',
+630 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+630 silly addNameRange   hasData: false }
+631 verbose url raw del
+632 verbose url resolving [ 'https://registry.npmjs.org/', './del' ]
+633 verbose url resolved https://registry.npmjs.org/del
+634 info trying registry request attempt 1 at 04:49:47
+635 verbose etag "588f9b0e-72a2"
+636 http GET https://registry.npmjs.org/del
+637 silly addNameRange { name: 'gulp-sourcemaps',
+637 silly addNameRange   range: '>=1.6.0-0 <2.0.0-0',
+637 silly addNameRange   hasData: false }
+638 silly addNameRange { name: 'gulp-uglify',
+638 silly addNameRange   range: '>=1.5.3-0 <2.0.0-0',
+638 silly addNameRange   hasData: false }
+639 silly addNameRange { name: 'gulp-util',
+639 silly addNameRange   range: '>=3.0.7-0 <4.0.0-0',
+639 silly addNameRange   hasData: false }
+640 verbose url raw glob
+641 verbose url resolving [ 'https://registry.npmjs.org/', './glob' ]
+642 verbose url resolved https://registry.npmjs.org/glob
+643 info trying registry request attempt 1 at 04:49:47
+644 verbose etag "5898fb7b-1f637"
+645 http GET https://registry.npmjs.org/glob
+646 verbose url raw gulp-autoprefixer
+647 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+648 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+649 info trying registry request attempt 1 at 04:49:47
+650 verbose etag "5896ddb3-8a3b"
+651 http GET https://registry.npmjs.org/gulp-autoprefixer
+652 verbose url raw gulp-batch
+653 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-batch' ]
+654 verbose url resolved https://registry.npmjs.org/gulp-batch
+655 info trying registry request attempt 1 at 04:49:47
+656 verbose etag "580017bb-7f6b"
+657 http GET https://registry.npmjs.org/gulp-batch
+658 silly addNameRange { name: 'parse-filepath',
+658 silly addNameRange   range: '>=1.0.1-0 <2.0.0-0',
+658 silly addNameRange   hasData: false }
+659 silly addNameRange { name: 'path', range: '>=0.12.7-0 <0.13.0-0', hasData: false }
+660 silly addNameRange { name: 'q', range: '>=1.4.1-0 <2.0.0-0', hasData: false }
+661 silly addNameRange { name: 'require-dir',
+661 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+661 silly addNameRange   hasData: false }
+662 silly addNameRange { name: 'run-sequence',
+662 silly addNameRange   range: '>=1.1.5-0 <2.0.0-0',
+662 silly addNameRange   hasData: false }
+663 silly addNameRange { name: 'underscore',
+663 silly addNameRange   range: '>=1.8.3-0 <2.0.0-0',
+663 silly addNameRange   hasData: false }
+664 silly addNameRange { name: 'vinyl-map2',
+664 silly addNameRange   range: '>=1.2.1-0 <2.0.0-0',
+664 silly addNameRange   hasData: false }
+665 verbose url raw gulp-concat
+666 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concat' ]
+667 verbose url resolved https://registry.npmjs.org/gulp-concat
+668 info trying registry request attempt 1 at 04:49:47
+669 verbose etag "58923d6d-a27c"
+670 http GET https://registry.npmjs.org/gulp-concat
+671 verbose url raw gulp-if
+672 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-if' ]
+673 verbose url resolved https://registry.npmjs.org/gulp-if
+674 info trying registry request attempt 1 at 04:49:47
+675 verbose etag "58874ee5-6a7b"
+676 http GET https://registry.npmjs.org/gulp-if
+677 verbose url raw gulp-less
+678 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-less' ]
+679 verbose url resolved https://registry.npmjs.org/gulp-less
+680 info trying registry request attempt 1 at 04:49:47
+681 verbose etag "5876313b-e3ac"
+682 http GET https://registry.npmjs.org/gulp-less
+683 verbose url raw gulp-notify
+684 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-notify' ]
+685 verbose url resolved https://registry.npmjs.org/gulp-notify
+686 info trying registry request attempt 1 at 04:49:48
+687 verbose etag "58923d72-131a1"
+688 http GET https://registry.npmjs.org/gulp-notify
+689 verbose url raw gulp-rename
+690 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rename' ]
+691 verbose url resolved https://registry.npmjs.org/gulp-rename
+692 info trying registry request attempt 1 at 04:49:48
+693 verbose etag "58923d73-3bf2"
+694 http GET https://registry.npmjs.org/gulp-rename
+695 verbose url raw gulp-load-plugins
+696 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-load-plugins' ]
+697 verbose url resolved https://registry.npmjs.org/gulp-load-plugins
+698 info trying registry request attempt 1 at 04:49:48
+699 verbose etag "5895824b-db5b"
+700 http GET https://registry.npmjs.org/gulp-load-plugins
+701 verbose url raw gulp-rev
+702 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rev' ]
+703 verbose url resolved https://registry.npmjs.org/gulp-rev
+704 info trying registry request attempt 1 at 04:49:48
+705 verbose etag "58874ee6-a70a"
+706 http GET https://registry.npmjs.org/gulp-rev
+707 verbose url raw gulp-rev-replace
+708 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-rev-replace' ]
+709 verbose url resolved https://registry.npmjs.org/gulp-rev-replace
+710 info trying registry request attempt 1 at 04:49:48
+711 verbose etag "58874ee9-5634"
+712 http GET https://registry.npmjs.org/gulp-rev-replace
+713 verbose url raw gulp-sass
+714 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sass' ]
+715 verbose url resolved https://registry.npmjs.org/gulp-sass
+716 info trying registry request attempt 1 at 04:49:48
+717 verbose etag "58944003-e631"
+718 http GET https://registry.npmjs.org/gulp-sass
+719 verbose url raw gulp-shell
+720 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-shell' ]
+721 verbose url resolved https://registry.npmjs.org/gulp-shell
+722 info trying registry request attempt 1 at 04:49:48
+723 verbose etag "5875f54d-7b8a"
+724 http GET https://registry.npmjs.org/gulp-shell
+725 verbose url raw gulp-uglify
+726 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+727 verbose url resolved https://registry.npmjs.org/gulp-uglify
+728 info trying registry request attempt 1 at 04:49:48
+729 verbose etag "5898f8f9-c38a"
+730 http GET https://registry.npmjs.org/gulp-uglify
+731 verbose url raw gulp-sourcemaps
+732 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sourcemaps' ]
+733 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps
+734 info trying registry request attempt 1 at 04:49:48
+735 verbose etag "589776b0-1ae11"
+736 http GET https://registry.npmjs.org/gulp-sourcemaps
+737 verbose url raw gulp-util
+738 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+739 verbose url resolved https://registry.npmjs.org/gulp-util
+740 info trying registry request attempt 1 at 04:49:48
+741 verbose etag "588536f3-fd69"
+742 http GET https://registry.npmjs.org/gulp-util
+743 verbose url raw parse-filepath
+744 verbose url resolving [ 'https://registry.npmjs.org/', './parse-filepath' ]
+745 verbose url resolved https://registry.npmjs.org/parse-filepath
+746 info trying registry request attempt 1 at 04:49:48
+747 verbose etag "56fa3013-64cf"
+748 http GET https://registry.npmjs.org/parse-filepath
+749 verbose url raw path
+750 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
+751 verbose url resolved https://registry.npmjs.org/path
+752 info trying registry request attempt 1 at 04:49:48
+753 verbose etag "58763140-1693"
+754 http GET https://registry.npmjs.org/path
+755 verbose url raw q
+756 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+757 verbose url resolved https://registry.npmjs.org/q
+758 info trying registry request attempt 1 at 04:49:48
+759 verbose etag "58933e8d-23948"
+760 http GET https://registry.npmjs.org/q
+761 verbose url raw require-dir
+762 verbose url resolving [ 'https://registry.npmjs.org/', './require-dir' ]
+763 verbose url resolved https://registry.npmjs.org/require-dir
+764 info trying registry request attempt 1 at 04:49:48
+765 verbose etag "587f67d0-25b7"
+766 http GET https://registry.npmjs.org/require-dir
+767 verbose url raw run-sequence
+768 verbose url resolving [ 'https://registry.npmjs.org/', './run-sequence' ]
+769 verbose url resolved https://registry.npmjs.org/run-sequence
+770 info trying registry request attempt 1 at 04:49:48
+771 verbose etag "589895d6-791e"
+772 http GET https://registry.npmjs.org/run-sequence
+773 verbose url raw underscore
+774 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+775 verbose url resolved https://registry.npmjs.org/underscore
+776 info trying registry request attempt 1 at 04:49:48
+777 verbose etag "589790e2-abdb"
+778 http GET https://registry.npmjs.org/underscore
+779 verbose url raw vinyl-map2
+780 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-map2' ]
+781 verbose url resolved https://registry.npmjs.org/vinyl-map2
+782 info trying registry request attempt 1 at 04:49:48
+783 verbose etag "587fd7db-316d"
+784 http GET https://registry.npmjs.org/vinyl-map2
+785 http 304 https://registry.npmjs.org/css-loader
+786 silly registry.get cb [ 304,
+786 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+786 silly registry.get     via: '1.1 varnish',
+786 silly registry.get     'cache-control': 'max-age=300',
+786 silly registry.get     etag: '"5898b755-16205"',
+786 silly registry.get     age: '0',
+786 silly registry.get     connection: 'keep-alive',
+786 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+786 silly registry.get     'x-cache': 'HIT',
+786 silly registry.get     'x-cache-hits': '1',
+786 silly registry.get     'x-timer': 'S1486432237.089485,VS0,VE56',
+786 silly registry.get     vary: 'Accept-Encoding' } ]
+787 verbose etag css-loader from cache
+788 http 304 https://registry.npmjs.org/sass-loader
+789 silly registry.get cb [ 304,
+789 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+789 silly registry.get     via: '1.1 varnish',
+789 silly registry.get     'cache-control': 'max-age=300',
+789 silly registry.get     etag: '"58991f61-1118c"',
+789 silly registry.get     age: '0',
+789 silly registry.get     connection: 'keep-alive',
+789 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+789 silly registry.get     'x-cache': 'HIT',
+789 silly registry.get     'x-cache-hits': '1',
+789 silly registry.get     'x-timer': 'S1486432237.090187,VS0,VE56',
+789 silly registry.get     vary: 'Accept-Encoding' } ]
+790 verbose etag sass-loader from cache
+791 silly addNameRange number 2 { name: 'sass-loader',
+791 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+791 silly addNameRange   hasData: true }
+792 silly addNameRange versions [ 'sass-loader',
+792 silly addNameRange   [ '0.0.1',
+792 silly addNameRange     '0.0.2',
+792 silly addNameRange     '0.1.0',
+792 silly addNameRange     '0.1.1',
+792 silly addNameRange     '0.2.0',
+792 silly addNameRange     '0.3.0',
+792 silly addNameRange     '0.3.1',
+792 silly addNameRange     '0.4.0-beta.1',
+792 silly addNameRange     '0.4.0',
+792 silly addNameRange     '0.4.1',
+792 silly addNameRange     '0.4.2',
+792 silly addNameRange     '0.5.0',
+792 silly addNameRange     '1.0.0',
+792 silly addNameRange     '1.0.1',
+792 silly addNameRange     '0.6.0',
+792 silly addNameRange     '1.0.2',
+792 silly addNameRange     '1.0.3',
+792 silly addNameRange     '1.0.4',
+792 silly addNameRange     '2.0.0',
+792 silly addNameRange     '2.0.1',
+792 silly addNameRange     '3.0.0',
+792 silly addNameRange     '3.1.0',
+792 silly addNameRange     '3.1.1',
+792 silly addNameRange     '3.1.2',
+792 silly addNameRange     '3.2.0',
+792 silly addNameRange     '3.2.1',
+792 silly addNameRange     '3.2.2',
+792 silly addNameRange     '4.0.0',
+792 silly addNameRange     '3.2.3',
+792 silly addNameRange     '4.0.1',
+792 silly addNameRange     '4.0.2',
+792 silly addNameRange     '4.1.0',
+792 silly addNameRange     '4.1.1',
+792 silly addNameRange     '5.0.0' ] ]
+793 verbose addNamed [ 'sass-loader', '4.1.1' ]
+794 verbose addNamed [ '4.1.1', '4.1.1' ]
+795 silly lockFile 0226a8f2-sass-loader-4-1-1 sass-loader@4.1.1
+796 verbose lock sass-loader@4.1.1 /home/kjs/.npm/0226a8f2-sass-loader-4-1-1.lock
+797 silly addNameRange number 2 { name: 'css-loader',
+797 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+797 silly addNameRange   hasData: true }
+798 silly addNameRange versions [ 'css-loader',
+798 silly addNameRange   [ '0.1.0',
+798 silly addNameRange     '0.1.1',
+798 silly addNameRange     '0.1.2',
+798 silly addNameRange     '0.2.0',
+798 silly addNameRange     '0.2.1',
+798 silly addNameRange     '0.2.2',
+798 silly addNameRange     '0.2.3',
+798 silly addNameRange     '0.2.4',
+798 silly addNameRange     '0.5.0',
+798 silly addNameRange     '0.5.1',
+798 silly addNameRange     '0.5.2',
+798 silly addNameRange     '0.6.0',
+798 silly addNameRange     '0.6.1',
+798 silly addNameRange     '0.6.2',
+798 silly addNameRange     '0.6.3',
+798 silly addNameRange     '0.6.4',
+798 silly addNameRange     '0.6.5',
+798 silly addNameRange     '0.6.6',
+798 silly addNameRange     '0.6.7',
+798 silly addNameRange     '0.6.8',
+798 silly addNameRange     '0.6.9',
+798 silly addNameRange     '0.6.10',
+798 silly addNameRange     '0.6.11',
+798 silly addNameRange     '0.6.12',
+798 silly addNameRange     '0.7.0',
+798 silly addNameRange     '0.7.1',
+798 silly addNameRange     '0.8.0',
+798 silly addNameRange     '0.9.0',
+798 silly addNameRange     '0.9.1',
+798 silly addNameRange     '0.10.0',
+798 silly addNameRange     '0.10.1',
+798 silly addNameRange     '0.11.0',
+798 silly addNameRange     '0.11.1',
+798 silly addNameRange     '0.11.2',
+798 silly addNameRange     '0.12.0',
+798 silly addNameRange     '0.12.1',
+798 silly addNameRange     '0.13.0',
+798 silly addNameRange     '0.13.1',
+798 silly addNameRange     '0.14.0',
+798 silly addNameRange     '0.14.1',
+798 silly addNameRange     '0.14.2',
+798 silly addNameRange     '0.14.3',
+798 silly addNameRange     '0.14.4',
+798 silly addNameRange     '0.14.5',
+798 silly addNameRange     '0.15.0',
+798 silly addNameRange     '0.15.1',
+798 silly addNameRange     '0.15.2',
+798 silly addNameRange     '0.15.3',
+798 silly addNameRange     '0.15.4',
+798 silly addNameRange     '0.15.5',
+798 silly addNameRange     '0.15.6',
+798 silly addNameRange     '0.16.0',
+798 silly addNameRange     '0.17.0',
+798 silly addNameRange     '0.18.0',
+798 silly addNameRange     '0.19.0',
+798 silly addNameRange     '0.20.0',
+798 silly addNameRange     '0.20.1',
+798 silly addNameRange     '0.20.2',
+798 silly addNameRange     '0.21.0',
+798 silly addNameRange     '0.22.0',
+798 silly addNameRange     '0.23.0',
+798 silly addNameRange     '0.23.1',
+798 silly addNameRange     '0.24.0',
+798 silly addNameRange     '0.25.0',
+798 silly addNameRange     '0.26.0',
+798 silly addNameRange     '0.26.1' ] ]
+799 verbose addNamed [ 'css-loader', '0.23.1' ]
+800 verbose addNamed [ '0.23.1', '0.23.1' ]
+801 silly lockFile 0dd5a18a-css-loader-0-23-1 css-loader@0.23.1
+802 verbose lock css-loader@0.23.1 /home/kjs/.npm/0dd5a18a-css-loader-0-23-1.lock
+803 silly lockFile 0226a8f2-sass-loader-4-1-1 sass-loader@4.1.1
+804 silly lockFile 0226a8f2-sass-loader-4-1-1 sass-loader@4.1.1
+805 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+806 silly lockFile e7f467ec-sass-loader-4-0-0 sass-loader@^4.0.0
+807 silly lockFile 0dd5a18a-css-loader-0-23-1 css-loader@0.23.1
+808 silly lockFile 0dd5a18a-css-loader-0-23-1 css-loader@0.23.1
+809 silly lockFile b4e238d3-css-loader-0-23-1 css-loader@^0.23.1
+810 silly lockFile b4e238d3-css-loader-0-23-1 css-loader@^0.23.1
+811 http 304 https://registry.npmjs.org/file-loader
+812 silly registry.get cb [ 304,
+812 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+812 silly registry.get     via: '1.1 varnish',
+812 silly registry.get     'cache-control': 'max-age=300',
+812 silly registry.get     etag: '"589741af-5ccd"',
+812 silly registry.get     age: '0',
+812 silly registry.get     connection: 'keep-alive',
+812 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+812 silly registry.get     'x-cache': 'HIT',
+812 silly registry.get     'x-cache-hits': '1',
+812 silly registry.get     'x-timer': 'S1486432237.117831,VS0,VE122',
+812 silly registry.get     vary: 'Accept-Encoding' } ]
+813 verbose etag file-loader from cache
+814 silly addNameRange number 2 { name: 'file-loader',
+814 silly addNameRange   range: '>=0.9.0-0 <0.10.0-0',
+814 silly addNameRange   hasData: true }
+815 silly addNameRange versions [ 'file-loader',
+815 silly addNameRange   [ '0.1.0',
+815 silly addNameRange     '0.1.1',
+815 silly addNameRange     '0.1.2',
+815 silly addNameRange     '0.5.0',
+815 silly addNameRange     '0.5.1',
+815 silly addNameRange     '0.6.1',
+815 silly addNameRange     '0.7.0',
+815 silly addNameRange     '0.7.1',
+815 silly addNameRange     '0.7.2',
+815 silly addNameRange     '0.8.0',
+815 silly addNameRange     '0.8.1',
+815 silly addNameRange     '0.8.2',
+815 silly addNameRange     '0.8.3',
+815 silly addNameRange     '0.8.4',
+815 silly addNameRange     '0.8.5',
+815 silly addNameRange     '0.9.0',
+815 silly addNameRange     '0.10.0' ] ]
+816 verbose addNamed [ 'file-loader', '0.9.0' ]
+817 verbose addNamed [ '0.9.0', '0.9.0' ]
+818 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+819 verbose lock file-loader@0.9.0 /home/kjs/.npm/356ca48d-file-loader-0-9-0.lock
+820 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+821 silly lockFile 356ca48d-file-loader-0-9-0 file-loader@0.9.0
+822 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+823 silly lockFile 398b9e9c-file-loader-0-9-0 file-loader@^0.9.0
+824 http 304 https://registry.npmjs.org/url-loader
+825 silly registry.get cb [ 304,
+825 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+825 silly registry.get     via: '1.1 varnish',
+825 silly registry.get     'cache-control': 'max-age=300',
+825 silly registry.get     etag: '"5888f093-2dd3"',
+825 silly registry.get     age: '0',
+825 silly registry.get     connection: 'keep-alive',
+825 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+825 silly registry.get     'x-cache': 'MISS',
+825 silly registry.get     'x-cache-hits': '0',
+825 silly registry.get     'x-timer': 'S1486432237.112501,VS0,VE177',
+825 silly registry.get     vary: 'Accept-Encoding' } ]
+826 verbose etag url-loader from cache
+827 silly addNameRange number 2 { name: 'url-loader',
+827 silly addNameRange   range: '>=0.5.7-0 <0.6.0-0',
+827 silly addNameRange   hasData: true }
+828 silly addNameRange versions [ 'url-loader',
+828 silly addNameRange   [ '0.1.0',
+828 silly addNameRange     '0.1.1',
+828 silly addNameRange     '0.1.2',
+828 silly addNameRange     '0.1.3',
+828 silly addNameRange     '0.5.0',
+828 silly addNameRange     '0.5.1',
+828 silly addNameRange     '0.5.2',
+828 silly addNameRange     '0.5.3',
+828 silly addNameRange     '0.5.4',
+828 silly addNameRange     '0.5.5',
+828 silly addNameRange     '0.5.6',
+828 silly addNameRange     '0.5.7' ] ]
+829 verbose addNamed [ 'url-loader', '0.5.7' ]
+830 verbose addNamed [ '0.5.7', '0.5.7' ]
+831 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+832 verbose lock url-loader@0.5.7 /home/kjs/.npm/73c96ba3-url-loader-0-5-7.lock
+833 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+834 silly lockFile 73c96ba3-url-loader-0-5-7 url-loader@0.5.7
+835 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+836 silly lockFile 6e6af105-url-loader-0-5-7 url-loader@^0.5.7
+837 http 304 https://registry.npmjs.org/buble-loader
+838 silly registry.get cb [ 304,
+838 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+838 silly registry.get     via: '1.1 varnish',
+838 silly registry.get     'cache-control': 'max-age=300',
+838 silly registry.get     etag: '"5852b081-2dc1"',
+838 silly registry.get     age: '0',
+838 silly registry.get     connection: 'keep-alive',
+838 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+838 silly registry.get     'x-cache': 'HIT',
+838 silly registry.get     'x-cache-hits': '1',
+838 silly registry.get     'x-timer': 'S1486432237.380639,VS0,VE69',
+838 silly registry.get     vary: 'Accept-Encoding' } ]
+839 verbose etag buble-loader from cache
+840 http 304 https://registry.npmjs.org/gulp-filter
+841 silly registry.get cb [ 304,
+841 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+841 silly registry.get     via: '1.1 varnish',
+841 silly registry.get     'cache-control': 'max-age=300',
+841 silly registry.get     etag: '"58853724-767e"',
+841 silly registry.get     age: '0',
+841 silly registry.get     connection: 'keep-alive',
+841 silly registry.get     'x-served-by': 'cache-fra1232-FRA',
+841 silly registry.get     'x-cache': 'HIT',
+841 silly registry.get     'x-cache-hits': '1',
+841 silly registry.get     'x-timer': 'S1486432237.375550,VS0,VE74',
+841 silly registry.get     vary: 'Accept-Encoding' } ]
+842 verbose etag gulp-filter from cache
+843 silly addNameRange number 2 { name: 'buble-loader',
+843 silly addNameRange   range: '>=0.2.2-0 <0.3.0-0',
+843 silly addNameRange   hasData: true }
+844 silly addNameRange versions [ 'buble-loader',
+844 silly addNameRange   [ '0.1.0',
+844 silly addNameRange     '0.2.0',
+844 silly addNameRange     '0.2.1',
+844 silly addNameRange     '0.2.2',
+844 silly addNameRange     '0.3.0',
+844 silly addNameRange     '0.3.1',
+844 silly addNameRange     '0.3.2',
+844 silly addNameRange     '0.4.0' ] ]
+845 verbose addNamed [ 'buble-loader', '0.2.2' ]
+846 verbose addNamed [ '0.2.2', '0.2.2' ]
+847 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+848 verbose lock buble-loader@0.2.2 /home/kjs/.npm/808f88a0-buble-loader-0-2-2.lock
+849 silly addNameRange number 2 { name: 'gulp-filter',
+849 silly addNameRange   range: '>=4.0.0-0 <5.0.0-0',
+849 silly addNameRange   hasData: true }
+850 silly addNameRange versions [ 'gulp-filter',
+850 silly addNameRange   [ '0.1.0',
+850 silly addNameRange     '0.1.1',
+850 silly addNameRange     '0.2.0',
+850 silly addNameRange     '0.2.1',
+850 silly addNameRange     '0.3.0',
+850 silly addNameRange     '0.3.1',
+850 silly addNameRange     '0.4.0',
+850 silly addNameRange     '0.4.1',
+850 silly addNameRange     '0.5.0',
+850 silly addNameRange     '0.5.1',
+850 silly addNameRange     '1.0.0',
+850 silly addNameRange     '1.0.1',
+850 silly addNameRange     '1.0.2',
+850 silly addNameRange     '2.0.0',
+850 silly addNameRange     '2.0.1',
+850 silly addNameRange     '2.0.2',
+850 silly addNameRange     '3.0.0',
+850 silly addNameRange     '3.0.1',
+850 silly addNameRange     '4.0.0',
+850 silly addNameRange     '5.0.0' ] ]
+851 verbose addNamed [ 'gulp-filter', '4.0.0' ]
+852 verbose addNamed [ '4.0.0', '4.0.0' ]
+853 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+854 verbose lock gulp-filter@4.0.0 /home/kjs/.npm/54527cfd-gulp-filter-4-0-0.lock
+855 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+856 silly lockFile 808f88a0-buble-loader-0-2-2 buble-loader@0.2.2
+857 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+858 silly lockFile 54527cfd-gulp-filter-4-0-0 gulp-filter@4.0.0
+859 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+860 silly lockFile aba3153c-buble-loader-0-2-2 buble-loader@^0.2.2
+861 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+862 silly lockFile a9c55e0c-gulp-filter-4-0-0 gulp-filter@^4.0.0
+863 http 304 https://registry.npmjs.org/buble
+864 silly registry.get cb [ 304,
+864 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+864 silly registry.get     via: '1.1 varnish',
+864 silly registry.get     'cache-control': 'max-age=300',
+864 silly registry.get     etag: '"587160ba-2da35"',
+864 silly registry.get     age: '0',
+864 silly registry.get     connection: 'keep-alive',
+864 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+864 silly registry.get     'x-cache': 'HIT',
+864 silly registry.get     'x-cache-hits': '1',
+864 silly registry.get     'x-timer': 'S1486432237.475842,VS0,VE106',
+864 silly registry.get     vary: 'Accept-Encoding' } ]
+865 verbose etag buble from cache
+866 silly addNameRange number 2 { name: 'buble', range: '>=0.12.3-0 <0.13.0-0', hasData: true }
+867 silly addNameRange versions [ 'buble',
+867 silly addNameRange   [ '0.1.0',
+867 silly addNameRange     '0.2.0',
+867 silly addNameRange     '0.2.1',
+867 silly addNameRange     '0.2.2',
+867 silly addNameRange     '0.3.0',
+867 silly addNameRange     '0.3.1',
+867 silly addNameRange     '0.3.2',
+867 silly addNameRange     '0.3.3',
+867 silly addNameRange     '0.3.4',
+867 silly addNameRange     '0.4.0',
+867 silly addNameRange     '0.4.1',
+867 silly addNameRange     '0.4.2',
+867 silly addNameRange     '0.4.3',
+867 silly addNameRange     '0.4.4',
+867 silly addNameRange     '0.4.5',
+867 silly addNameRange     '0.4.6',
+867 silly addNameRange     '0.4.7',
+867 silly addNameRange     '0.4.8',
+867 silly addNameRange     '0.4.9',
+867 silly addNameRange     '0.4.10',
+867 silly addNameRange     '0.4.11',
+867 silly addNameRange     '0.4.12',
+867 silly addNameRange     '0.4.13',
+867 silly addNameRange     '0.4.14',
+867 silly addNameRange     '0.4.15',
+867 silly addNameRange     '0.4.16',
+867 silly addNameRange     '0.4.17',
+867 silly addNameRange     '0.4.18',
+867 silly addNameRange     '0.4.20',
+867 silly addNameRange     '0.4.21',
+867 silly addNameRange     '0.4.22',
+867 silly addNameRange     '0.4.23',
+867 silly addNameRange     '0.4.24',
+867 silly addNameRange     '0.5.0',
+867 silly addNameRange     '0.5.1',
+867 silly addNameRange     '0.5.2',
+867 silly addNameRange     '0.5.3',
+867 silly addNameRange     '0.5.4',
+867 silly addNameRange     '0.5.5',
+867 silly addNameRange     '0.5.6',
+867 silly addNameRange     '0.5.7',
+867 silly addNameRange     '0.5.8',
+867 silly addNameRange     '0.6.0',
+867 silly addNameRange     '0.6.1',
+867 silly addNameRange     '0.6.2',
+867 silly addNameRange     '0.6.3',
+867 silly addNameRange     '0.6.4',
+867 silly addNameRange     '0.6.5',
+867 silly addNameRange     '0.6.6',
+867 silly addNameRange     '0.6.7',
+867 silly addNameRange     '0.7.0',
+867 silly addNameRange     '0.7.1',
+867 silly addNameRange     '0.8.0',
+867 silly addNameRange     '0.8.1',
+867 silly addNameRange     '0.8.2',
+867 silly addNameRange     '0.8.3',
+867 silly addNameRange     '0.8.4',
+867 silly addNameRange     '0.8.5',
+867 silly addNameRange     '0.9.0',
+867 silly addNameRange     '0.9.1',
+867 silly addNameRange     '0.9.2',
+867 silly addNameRange     '0.9.3',
+867 silly addNameRange     '0.10.0',
+867 silly addNameRange     '0.10.1',
+867 silly addNameRange     '0.10.2',
+867 silly addNameRange     '0.10.3',
+867 silly addNameRange     '0.10.4',
+867 silly addNameRange     '0.10.5',
+867 silly addNameRange     '0.10.6',
+867 silly addNameRange     '0.10.7',
+867 silly addNameRange     '0.11.0',
+867 silly addNameRange     '0.11.1',
+867 silly addNameRange     '0.11.2',
+867 silly addNameRange     '0.11.3',
+867 silly addNameRange     '0.11.4',
+867 silly addNameRange     '0.11.5',
+867 silly addNameRange     '0.11.6',
+867 silly addNameRange     '0.12.0',
+867 silly addNameRange     '0.12.1',
+867 silly addNameRange     '0.12.2',
+867 silly addNameRange     '0.12.3',
+867 silly addNameRange     '0.12.4',
+867 silly addNameRange     '0.12.5',
+867 silly addNameRange     '0.13.0',
+867 silly addNameRange     '0.13.1',
+867 silly addNameRange     '0.13.2',
+867 silly addNameRange     '0.14.0',
+867 silly addNameRange     '0.14.1',
+867 silly addNameRange     '0.14.2',
+867 silly addNameRange     '0.14.3',
+867 silly addNameRange     '0.15.0',
+867 silly addNameRange     '0.15.1',
+867 silly addNameRange     '0.15.2' ] ]
+868 verbose addNamed [ 'buble', '0.12.5' ]
+869 verbose addNamed [ '0.12.5', '0.12.5' ]
+870 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+871 verbose lock buble@0.12.5 /home/kjs/.npm/e17dd4e4-buble-0-12-5.lock
+872 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+873 silly lockFile e17dd4e4-buble-0-12-5 buble@0.12.5
+874 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+875 silly lockFile c87ec1a5-buble-0-12-3 buble@^0.12.3
+876 http 304 https://registry.npmjs.org/webpack
+877 silly registry.get cb [ 304,
+877 silly registry.get   { date: 'Tue, 07 Feb 2017 01:50:37 GMT',
+877 silly registry.get     via: '1.1 varnish',
+877 silly registry.get     'cache-control': 'max-age=300',
+877 silly registry.get     etag: '"5896d9b0-e4a53"',
+877 silly registry.get     age: '0',
+877 silly registry.get     connection: 'keep-alive',
+877 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+877 silly registry.get     'x-cache': 'HIT',
+877 silly registry.get     'x-cache-hits': '1',
+877 silly registry.get     'x-timer': 'S1486432237.523568,VS0,VE84',
+877 silly registry.get     vary: 'Accept-Encoding' } ]
+878 verbose etag webpack from cache
+879 silly addNameRange number 2 { name: 'webpack',
+879 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0--beta.22',
+879 silly addNameRange   hasData: true }
+880 silly addNameRange versions [ 'webpack',
+880 silly addNameRange   [ '0.1.0',
+880 silly addNameRange     '0.1.1',
+880 silly addNameRange     '0.1.2',
+880 silly addNameRange     '0.1.3',
+880 silly addNameRange     '0.1.4',
+880 silly addNameRange     '0.1.5',
+880 silly addNameRange     '0.1.6',
+880 silly addNameRange     '0.2.0',
+880 silly addNameRange     '0.2.1',
+880 silly addNameRange     '0.2.2',
+880 silly addNameRange     '0.2.3',
+880 silly addNameRange     '0.2.4',
+880 silly addNameRange     '0.2.6',
+880 silly addNameRange     '0.2.7',
+880 silly addNameRange     '0.2.8',
+880 silly addNameRange     '0.3.0',
+880 silly addNameRange     '0.3.1',
+880 silly addNameRange     '0.3.2',
+880 silly addNameRange     '0.3.3',
+880 silly addNameRange     '0.3.4',
+880 silly addNameRange     '0.3.6',
+880 silly addNameRange     '0.3.7',
+880 silly addNameRange     '0.3.8',
+880 silly addNameRange     '0.3.9',
+880 silly addNameRange     '0.3.10',
+880 silly addNameRange     '0.3.11',
+880 silly addNameRange     '0.3.12',
+880 silly addNameRange     '0.3.13',
+880 silly addNameRange     '0.3.14',
+880 silly addNameRange     '0.3.15',
+880 silly addNameRange     '0.3.16',
+880 silly addNameRange     '0.3.17',
+880 silly addNameRange     '0.3.18',
+880 silly addNameRange     '0.3.19',
+880 silly addNameRange     '0.3.20',
+880 silly addNameRange     '0.4.0',
+880 silly addNameRange     '0.4.1',
+880 silly addNameRange     '0.4.2',
+880 silly addNameRange     '0.4.3',
+880 silly addNameRange     '0.4.4',
+880 silly addNameRange     '0.4.5',
+880 silly addNameRange     '0.4.6',
+880 silly addNameRange     '0.4.7',
+880 silly addNameRange     '0.4.8',
+880 silly addNameRange     '0.4.9',
+880 silly addNameRange     '0.4.10',
+880 silly addNameRange     '0.4.11',
+880 silly addNameRange     '0.4.12',
+880 silly addNameRange     '0.4.13',
+880 silly addNameRange     '0.4.14',
+880 silly addNameRange     '0.4.15',
+880 silly addNameRange     '0.4.16',
+880 silly addNameRange     '0.4.17',
+880 silly addNameRange     '0.4.18',
+880 silly addNameRange     '0.4.19',
+880 silly addNameRange     '0.4.20',
+880 silly addNameRange     '0.4.21',
+880 silly addNameRange     '0.4.23',
+880 silly addNameRange     '0.4.24',
+880 silly addNameRange     '0.4.25',
+880 silly addNameRange     '0.5.0',
+880 silly addNameRange     '0.5.1',
+880 silly addNameRange     '0.5.2',
+880 silly addNameRange     '0.5.3',
+880 silly addNameRange     '0.5.4',
+880 silly addNameRange     '0.5.5',
+880 silly addNameRange     '0.5.6',
+880 silly addNameRange     '0.5.7',
+880 silly addNameRange     '0.5.8',
+880 silly addNameRange     '0.5.10',
+880 silly addNameRange     '0.6.0',
+880 silly addNameRange     '0.6.1',
+880 silly addNameRange     '0.6.2',
+880 silly addNameRange     '0.7.0-beta',
+880 silly addNameRange     '0.7.0-beta2',
+880 silly addNameRange     '0.7.0-beta3',
+880 silly addNameRange     '0.7.0-beta4',
+880 silly addNameRange     '0.7.0-beta5',
+880 silly addNameRange     '0.7.0-beta6',
+880 silly addNameRange     '0.7.0-beta7',
+880 silly addNameRange     '0.7.0-beta8',
+880 silly addNameRange     '0.7.0',
+880 silly addNameRange     '0.7.1',
+880 silly addNameRange     '0.7.2',
+880 silly addNameRange     '0.7.3',
+880 silly addNameRange     '0.7.4',
+880 silly addNameRange     '0.7.5',
+880 silly addNameRange     '0.7.6',
+880 silly addNameRange     '0.7.7',
+880 silly addNameRange     '0.7.8',
+880 silly addNameRange     '0.7.9',
+880 silly addNameRange     '0.7.11',
+880 silly addNameRange     '0.7.12',
+880 silly addNameRange     '0.7.13',
+880 silly addNameRange     '0.7.14',
+880 silly addNameRange     '0.7.15',
+880 silly addNameRange     '0.7.16',
+880 silly addNameRange     '0.7.17',
+880 silly addNameRange     '0.8.0-beta1',
+880 silly addNameRange     '0.8.0-beta2',
+880 silly addNameRange     '0.8.0-beta3',
+880 silly addNameRange     '0.8.0-beta4',
+880 silly addNameRange     '0.8.0',
+880 silly addNameRange     '0.8.2',
+880 silly addNameRange     '0.8.3',
+880 silly addNameRange     '0.9.0-beta1',
+880 silly addNameRange     '0.9.0-beta2',
+880 silly addNameRange     '0.9.0-beta4',
+880 silly addNameRange     '0.9.0-beta5',
+880 silly addNameRange     '0.9.0-beta6',
+880 silly addNameRange     '0.9.0-beta7',
+880 silly addNameRange     '0.9.0-beta8',
+880 silly addNameRange     '0.9.0-beta9',
+880 silly addNameRange     '0.9.0-beta10',
+880 silly addNameRange     '0.9.0-beta11',
+880 silly addNameRange     '0.9.0-beta12',
+880 silly addNameRange     '0.9.0-beta13',
+880 silly addNameRange     '0.9.0-beta14',
+880 silly addNameRange     '0.9.0-beta15',
+880 silly addNameRange     '0.9.0-beta16',
+880 silly addNameRange     '0.9.0-beta17',
+880 silly addNameRange     '0.9.0-beta18',
+880 silly addNameRange     '0.9.0-beta19',
+880 silly addNameRange     '0.9.0-beta20',
+880 silly addNameRange     '0.9.0-beta21',
+880 silly addNameRange     '0.9.0-beta22',
+880 silly addNameRange     '0.9.0-beta23',
+880 silly addNameRange     '0.9.0-beta24',
+880 silly addNameRange     '0.9.0-beta25',
+880 silly addNameRange     '0.9.0-beta26',
+880 silly addNameRange     '0.9.0-beta27',
+880 silly addNameRange     '0.9.0-beta28',
+880 silly addNameRange     '0.9.0-beta29',
+880 silly addNameRange     '0.9.0-beta30',
+880 silly addNameRange     '0.9.0-beta31',
+880 silly addNameRange     '0.9.0-beta32',
+880 silly addNameRange     '0.9.0-beta33',
+880 silly addNameRange     '0.9.0-beta34',
+880 silly addNameRange     '0.9.0-beta35',
+880 silly addNameRange     '0.9.0-beta36',
+880 silly addNameRange     '0.9.0-beta37',
+880 silly addNameRange     '0.9.0-beta38',
+880 silly addNameRange     '0.9.0',
+880 silly addNameRange     '0.9.1',
+880 silly addNameRange     '0.9.2',
+880 silly addNameRange     '0.9.3',
+880 silly addNameRange     '0.10.0-beta2',
+880 silly addNameRange     '0.10.0-beta3',
+880 silly addNameRange     '0.10.0-beta5',
+880 silly addNameRange     '0.10.0-beta6',
+880 silly addNameRange     '0.10.0-beta7',
+880 silly addNameRange     '0.10.0-beta8',
+880 silly addNameRange     '0.10.0-beta9',
+880 silly addNameRange     '0.10.0-beta10',
+880 silly addNameRange     '0.10.0-beta11',
+880 silly addNameRange     '0.10.0-beta12',
+880 silly addNameRange     '0.10.0-beta13',
+880 silly addNameRange     '0.10.0-beta14',
+880 silly addNameRange     '0.10.0-beta15',
+880 silly addNameRange     '0.10.0-beta16',
+880 silly addNameRange     '0.10.0-beta17',
+880 silly addNameRange     '0.10.0-beta18',
+880 silly addNameRange     '0.10.0-beta19',
+880 silly addNameRange     '0.10.0-beta20',
+880 silly addNameRange     '0.10.0-beta21',
+880 silly addNameRange     '0.10.0-beta22',
+880 silly addNameRange     '0.10.0-beta23',
+880 silly addNameRange     '0.10.0-beta24',
+880 silly addNameRange     '0.10.0-beta25',
+880 silly addNameRange     '0.10.0',
+880 silly addNameRange     '0.11.0-beta1',
+880 silly addNameRange     '0.11.0-beta2',
+880 silly addNameRange     '0.11.0-beta3',
+880 silly addNameRange     '0.11.0-beta4',
+880 silly addNameRange     '0.11.0-beta5',
+880 silly addNameRange     '0.11.0-beta6',
+880 silly addNameRange     '0.11.0-beta7',
+880 silly addNameRange     '0.11.0-beta8',
+880 silly addNameRange     '0.11.0-beta9',
+880 silly addNameRange     '0.11.0-beta10',
+880 silly addNameRange     '0.11.0-beta11',
+880 silly addNameRange     '0.11.0-beta12',
+880 silly addNameRange     '0.11.0-beta13',
+880 silly addNameRange     '0.11.0-beta14',
+880 silly addNameRange     '0.11.0-beta15',
+880 silly addNameRange     '0.11.0-beta16',
+880 silly addNameRange     '0.11.0-beta17',
+880 silly addNameRange     '0.11.0-beta18',
+880 silly addNameRange     '0.11.0-beta19',
+880 silly addNameRange     '0.11.0-beta20',
+880 silly addNameRange     '0.11.0-beta21',
+880 silly addNameRange     '0.11.0-beta22',
+880 silly addNameRange     '0.11.0-beta23',
+880 silly addNameRange     '0.11.0-beta24',
+880 silly addNameRange     '0.11.0-beta25',
+880 silly addNameRange     '0.11.0-beta26',
+880 silly addNameRange     '0.11.0-beta27',
+880 silly addNameRange     '0.11.0-beta28',
+880 silly addNameRange     '0.11.0-beta29',
+880 silly addNameRange     '0.11.0',
+880 silly addNameRange     '0.11.1',
+880 silly addNameRange     '0.11.2',
+880 silly addNameRange     '0.11.3',
+880 silly addNameRange     '0.11.4',
+880 silly addNameRange     '0.11.5',
+880 silly addNameRange     '0.11.6',
+880 silly addNameRange     '0.11.7',
+880 silly addNameRange     '0.11.8',
+880 silly addNameRange     '0.11.9',
+880 silly addNameRange     '0.11.10',
+880 silly addNameRange     '0.11.11',
+880 silly addNameRange     '0.11.12',
+880 silly addNameRange     '0.11.13',
+880 silly addNameRange     '0.11.14',
+880 silly addNameRange     '0.11.15',
+880 silly addNameRange     '1.0.0-beta1',
+880 silly addNameRange     '1.0.0-beta2',
+880 silly addNameRange     '1.0.0-beta3',
+880 silly addNameRange     '1.0.0-beta4',
+880 silly addNameRange     '0.11.16',
+880 silly addNameRange     '0.11.17',
+880 silly addNameRange     '0.11.18',
+880 silly addNameRange     '1.0.0-beta5',
+880 silly addNameRange     '1.0.0-beta6',
+880 silly addNameRange     '1.0.0-beta7',
+880 silly addNameRange     '1.0.0-beta8',
+880 silly addNameRange     '1.0.0-beta9',
+880 silly addNameRange     '1.0.0-rc1',
+880 silly addNameRange     '1.0.0-rc2',
+880 silly addNameRange     '1.0.0-rc3',
+880 silly addNameRange     '1.0.0-rc4',
+880 silly addNameRange     '1.0.0-rc5',
+880 silly addNameRange     '1.0.0-rc7',
+880 silly addNameRange     '1.0.0-rc8',
+880 silly addNameRange     '1.0.0-rc9',
+880 silly addNameRange     '1.0.0-rc11',
+880 silly addNameRange     '1.0.0-rc12',
+880 silly addNameRange     '1.0.0',
+880 silly addNameRange     '1.0.1',
+880 silly addNameRange     '1.0.3',
+880 silly addNameRange     '1.0.4',
+880 silly addNameRange     '1.0.5',
+880 silly addNameRange     '1.1.0-beta1',
+880 silly addNameRange     '1.1.0-beta2',
+880 silly addNameRange     '1.1.0-beta3',
+880 silly addNameRange     '1.1.0-beta4',
+880 silly addNameRange     '1.1.0-beta5',
+880 silly addNameRange     '1.1.0-beta6',
+880 silly addNameRange     '1.1.0-beta7',
+880 silly addNameRange     '1.1.0-beta8',
+880 silly addNameRange     '1.1.0-beta9',
+880 silly addNameRange     '1.1.0-beta10',
+880 silly addNameRange     '1.1.0-beta12',
+880 silly addNameRange     '1.1.0',
+880 silly addNameRange     '1.1.1',
+880 silly addNameRange     '1.1.2',
+880 silly addNameRange     '1.1.3',
+880 silly addNameRange     '1.1.4',
+880 silly addNameRange     '1.1.5',
+880 silly addNameRange     '1.1.6',
+880 silly addNameRange     '1.1.7',
+880 silly addNameRange     '1.1.8',
+880 silly addNameRange     '1.1.9',
+880 silly addNameRange     '1.1.10',
+880 silly addNameRange     '1.1.11',
+880 silly addNameRange     '1.2.0-beta1',
+880 silly addNameRange     '1.2.0-beta2',
+880 silly addNameRange     '1.2.0-beta4',
+880 silly addNameRange     '1.2.0-beta5',
+880 silly addNameRange     '1.2.0-beta6',
+880 silly addNameRange     '1.3.0-beta1',
+880 silly addNameRange     '1.3.0-beta2',
+880 silly addNameRange     '1.3.0-beta3',
+880 silly addNameRange     '1.3.0-beta4',
+880 silly addNameRange     '1.3.0-beta5',
+880 silly addNameRange     '1.3.0-beta6',
+880 silly addNameRange     '1.3.0-beta7',
+880 silly addNameRange     '1.3.0-beta8',
+880 silly addNameRange     '1.3.0-beta9',
+880 silly addNameRange     '1.3.1-beta1',
+880 silly addNameRange     '1.3.1-beta2',
+880 silly addNameRange     '1.3.1-beta3',
+880 silly addNameRange     '1.3.1-beta4',
+880 silly addNameRange     '1.3.1-beta5',
+880 silly addNameRange     '1.3.1-beta6',
+880 silly addNameRange     '1.3.1-beta7',
+880 silly addNameRange     '1.3.1-beta8',
+880 silly addNameRange     '1.3.1-beta9',
+880 silly addNameRange     '1.3.2-beta1',
+880 silly addNameRange     '1.3.2-beta2',
+880 silly addNameRange     '1.3.2-beta3',
+880 silly addNameRange     '1.3.2-beta4',
+880 silly addNameRange     '1.3.2-beta5',
+880 silly addNameRange     '1.3.2-beta6',
+880 silly addNameRange     '1.3.2-beta7',
+880 silly addNameRange     '1.3.2-beta8',
+880 silly addNameRange     '1.3.2-beta9',
+880 silly addNameRange     '1.3.3-beta1',
+880 silly addNameRange     '1.3.3-beta2',
+880 silly addNameRange     '1.3.4',
+880 silly addNameRange     '1.3.5',
+880 silly addNameRange     '1.3.6',
+880 silly addNameRange     '1.3.7',
+880 silly addNameRange     '1.4.0-beta1',
+880 silly addNameRange     '1.4.0-beta2',
+880 silly addNameRange     '1.4.0-beta3',
+880 silly addNameRange     '1.4.0-beta4',
+880 silly addNameRange     '1.4.0-beta5',
+880 silly addNameRange     '1.4.0-beta6',
+880 silly addNameRange     '1.4.0-beta7',
+880 silly addNameRange     '1.4.0-beta8',
+880 silly addNameRange     '1.4.0-beta9',
+880 silly addNameRange     '1.4.0-beta10',
+880 silly addNameRange     '1.4.1-beta1',
+880 silly addNameRange     '1.4.2',
+880 silly addNameRange     '1.4.3',
+880 silly addNameRange     '1.4.4',
+880 silly addNameRange     '1.4.5',
+880 silly addNameRange     '1.4.6',
+880 silly addNameRange     '1.4.7',
+880 silly addNameRange     '1.4.8',
+880 silly addNameRange     '1.4.9',
+880 silly addNameRange     '1.4.10',
+880 silly addNameRange     '1.4.11',
+880 silly addNameRange     '1.4.12',
+880 silly addNameRange     '1.4.13',
+880 silly addNameRange     '1.4.14',
+880 silly addNameRange     '1.4.15',
+880 silly addNameRange     '1.5.0',
+880 silly addNameRange     '1.5.1',
+880 silly addNameRange     '1.5.2',
+880 silly addNameRange     '1.5.3',
+880 silly addNameRange     '1.6.0',
+880 silly addNameRange     '1.7.0',
+880 silly addNameRange     '1.7.1',
+880 silly addNameRange     '1.7.2',
+880 silly addNameRange     '1.7.3',
+880 silly addNameRange     '1.8.0',
+880 silly addNameRange     '1.8.1',
+880 silly addNameRange     '1.8.2',
+880 silly addNameRange     '1.8.3',
+880 silly addNameRange     '1.8.4',
+880 silly addNameRange     '1.8.5',
+880 silly addNameRange     '1.8.6',
+880 silly addNameRange     '1.8.7',
+880 silly addNameRange     '1.8.8',
+880 silly addNameRange     '1.8.9',
+880 silly addNameRange     '1.8.10',
+880 silly addNameRange     '1.8.11',
+880 silly addNameRange     '1.9.0',
+880 silly addNameRange     '1.9.1',
+880 silly addNameRange     '1.9.2',
+880 silly addNameRange     '1.9.3',
+880 silly addNameRange     '1.9.4',
+880 silly addNameRange     '1.9.5',
+880 silly addNameRange     '1.9.6',
+880 silly addNameRange     '1.9.7',
+880 silly addNameRange     '1.9.8',
+880 silly addNameRange     '1.9.9',
+880 silly addNameRange     '1.9.10',
+880 silly addNameRange     '1.9.11',
+880 silly addNameRange     '1.9.12',
+880 silly addNameRange     '1.9.13',
+880 silly addNameRange     '1.10.0',
+880 silly addNameRange     '1.10.1',
+880 silly addNameRange     '1.10.2',
+880 silly addNameRange     '1.10.3',
+880 silly addNameRange     '1.10.4',
+880 silly addNameRange     '1.10.5',
+880 silly addNameRange     '1.11.0',
+880 silly addNameRange     '1.12.0',
+880 silly addNameRange     '1.12.1',
+880 silly addNameRange     '1.12.2',
+880 silly addNameRange     '2.0.0-beta',
+880 silly addNameRange     '1.12.3',
+880 silly addNameRange     '1.12.4',
+880 silly addNameRange     '1.12.5',
+880 silly addNameRange     '1.12.6',
+880 silly addNameRange     '1.12.7',
+880 silly addNameRange     '1.12.8',
+880 silly addNameRange     '1.12.9',
+880 silly addNameRange     '2.0.1-beta',
+880 silly addNameRange     '2.0.2-beta',
+880 silly addNameRange     '1.12.10',
+880 silly addNameRange     '1.12.11',
+880 silly addNameRange     '2.0.4-beta',
+880 silly addNameRange     '1.12.12',
+880 silly addNameRange     '2.0.5-beta',
+880 silly addNameRange     '2.0.6-beta',
+880 silly addNameRange     '2.0.7-beta',
+880 silly addNameRange     '1.12.13',
+880 silly addNameRange     '2.1.0-beta.0',
+880 silly addNameRange     '2.1.0-beta.1',
+880 silly addNameRange     '2.1.0-beta.2',
+880 silly addNameRange     '1.12.14',
+880 silly addNameRange     '2.1.0-beta.3',
+880 silly addNameRange     '2.1.0-beta.4',
+880 silly addNameRange     '2.1.0-beta.5',
+880 silly addNameRange     '1.12.15',
+880 silly addNameRange     '1.13.0',
+880 silly addNameRange     '2.1.0-beta.6',
+880 silly addNameRange     '2.1.0-beta.7',
+880 silly addNameRange     '1.13.1',
+880 silly addNameRange     '2.1.0-beta.8',
+880 silly addNameRange     '2.1.0-beta.9',
+880 silly addNameRange     '2.1.0-beta.10',
+880 silly addNameRange     '2.1.0-beta.11',
+880 silly addNameRange     '2.1.0-beta.12',
+880 silly addNameRange     '2.1.0-beta.13',
+880 silly addNameRange     '2.1.0-beta.14',
+880 silly addNameRange     '2.1.0-beta.15',
+880 silly addNameRange     '2.1.0-beta.16',
+880 silly addNameRange     '2.1.0-beta.17',
+880 silly addNameRange     '2.1.0-beta.18',
+880 silly addNameRange     '2.1.0-beta.19',
+880 silly addNameRange     '2.1.0-beta.20',
+880 silly addNameRange     '2.1.0-beta.21',
+880 silly addNameRange     '1.13.2',
+880 silly addNameRange     '2.1.0-beta.22',
+880 silly addNameRange     '2.1.0-beta.23',
+880 silly addNameRange     '2.1.0-beta.24',
+880 silly addNameRange     '2.1.0-beta.25',
+880 silly addNameRange     '1.13.3',
+880 silly addNameRange     '2.1.0-beta.26',
+880 silly addNameRange     '2.1.0-beta.27',
+880 silly addNameRange     '1.14.0',
+880 silly addNameRange     '2.1.0-beta.28',
+880 silly addNameRange     '2.2.0-rc.0',
+880 silly addNameRange     '2.2.0-rc.1',
+880 silly addNameRange     '2.2.0-rc.2',
+880 silly addNameRange     '2.2.0-rc.3',
+880 silly addNameRange     '2.2.0-rc.4',
+880 silly addNameRange     '2.2.0-rc.5',
+880 silly addNameRange     '2.2.0-rc.6',
+880 silly addNameRange     '2.2.0-rc.7',
+880 silly addNameRange     '2.2.0-rc.8',
+880 silly addNameRange     '2.2.0',
+880 silly addNameRange     '2.2.1' ] ]
+881 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+882 silly lockFile ac0bcb2f-pack-2-1-0-beta-15-2-1-0-beta-22 webpack@2.1.0-beta.15 - 2.1.0-beta.22
+883 verbose about to build /home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official
+884 info /home/kjs/site/bofh/node_modules/laravel-elixir-webpack-official unbuild
+885 info preuninstall laravel-elixir-webpack-official@1.0.10
+886 info uninstall laravel-elixir-webpack-official@1.0.10
+887 verbose true,/home/kjs/site/bofh/node_modules,/home/kjs/site/bofh/node_modules unbuild laravel-elixir-webpack-official@1.0.10
+888 info postuninstall laravel-elixir-webpack-official@1.0.10
+889 error Error: No compatible version found: webpack@'>=2.1.0-beta.15 <=2.1.0--beta.22'
+889 error Valid install targets:
+889 error ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.6","0.2.7","0.2.8","0.3.0","0.3.1","0.3.2","0.3.3","0.3.4","0.3.6","0.3.7","0.3.8","0.3.9","0.3.10","0.3.11","0.3.12","0.3.13","0.3.14","0.3.15","0.3.16","0.3.17","0.3.18","0.3.19","0.3.20","0.4.0","0.4.1","0.4.2","0.4.3","0.4.4","0.4.5","0.4.6","0.4.7","0.4.8","0.4.9","0.4.10","0.4.11","0.4.12","0.4.13","0.4.14","0.4.15","0.4.16","0.4.17","0.4.18","0.4.19","0.4.20","0.4.21","0.4.23","0.4.24","0.4.25","0.5.0","0.5.1","0.5.2","0.5.3","0.5.4","0.5.5","0.5.6","0.5.7","0.5.8","0.5.10","0.6.0","0.6.1","0.6.2","0.7.0-beta","0.7.0-beta2","0.7.0-beta3","0.7.0-beta4","0.7.0-beta5","0.7.0-beta6","0.7.0-beta7","0.7.0-beta8","0.7.0","0.7.1","0.7.2","0.7.3","0.7.4","0.7.5","0.7.6","0.7.7","0.7.8","0.7.9","0.7.11","0.7.12","0.7.13","0.7.14","0.7.15","0.7.16","0.7.17","0.8.0-beta1","0.8.0-beta2","0.8.0-beta3","0.8.0-beta4","0.8.0","0.8.2","0.8.3","0.9.0-beta1","0.9.0-beta2","0.9.0-beta4","0.9.0-beta5","0.9.0-beta6","0.9.0-beta7","0.9.0-beta8","0.9.0-beta9","0.9.0-beta10","0.9.0-beta11","0.9.0-beta12","0.9.0-beta13","0.9.0-beta14","0.9.0-beta15","0.9.0-beta16","0.9.0-beta17","0.9.0-beta18","0.9.0-beta19","0.9.0-beta20","0.9.0-beta21","0.9.0-beta22","0.9.0-beta23","0.9.0-beta24","0.9.0-beta25","0.9.0-beta26","0.9.0-beta27","0.9.0-beta28","0.9.0-beta29","0.9.0-beta30","0.9.0-beta31","0.9.0-beta32","0.9.0-beta33","0.9.0-beta34","0.9.0-beta35","0.9.0-beta36","0.9.0-beta37","0.9.0-beta38","0.9.0","0.9.1","0.9.2","0.9.3","0.10.0-beta2","0.10.0-beta3","0.10.0-beta5","0.10.0-beta6","0.10.0-beta7","0.10.0-beta8","0.10.0-beta9","0.10.0-beta10","0.10.0-beta11","0.10.0-beta12","0.10.0-beta13","0.10.0-beta14","0.10.0-beta15","0.10.0-beta16","0.10.0-beta17","0.10.0-beta18","0.10.0-beta19","0.10.0-beta20","0.10.0-beta21","0.10.0-beta22","0.10.0-beta23","0.10.0-beta24","0.10.0-beta25","0.10.0","0.11.0-beta1","0.11.0-beta2","0.11.0-beta3","0.11.0-beta4","0.11.0-beta5","0.11.0-beta6","0.11.0-beta7","0.11.0-beta8","0.11.0-beta9","0.11.0-beta10","0.11.0-beta11","0.11.0-beta12","0.11.0-beta13","0.11.0-beta14","0.11.0-beta15","0.11.0-beta16","0.11.0-beta17","0.11.0-beta18","0.11.0-beta19","0.11.0-beta20","0.11.0-beta21","0.11.0-beta22","0.11.0-beta23","0.11.0-beta24","0.11.0-beta25","0.11.0-beta26","0.11.0-beta27","0.11.0-beta28","0.11.0-beta29","0.11.0","0.11.1","0.11.2","0.11.3","0.11.4","0.11.5","0.11.6","0.11.7","0.11.8","0.11.9","0.11.10","0.11.11","0.11.12","0.11.13","0.11.14","0.11.15","1.0.0-beta1","1.0.0-beta2","1.0.0-beta3","1.0.0-beta4","0.11.16","0.11.17","0.11.18","1.0.0-beta5","1.0.0-beta6","1.0.0-beta7","1.0.0-beta8","1.0.0-beta9","1.0.0-rc1","1.0.0-rc2","1.0.0-rc3","1.0.0-rc4","1.0.0-rc5","1.0.0-rc7","1.0.0-rc8","1.0.0-rc9","1.0.0-rc11","1.0.0-rc12","1.0.0","1.0.1","1.0.3","1.0.4","1.0.5","1.1.0-beta1","1.1.0-beta2","1.1.0-beta3","1.1.0-beta4","1.1.0-beta5","1.1.0-beta6","1.1.0-beta7","1.1.0-beta8","1.1.0-beta9","1.1.0-beta10","1.1.0-beta12","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","1.1.8","1.1.9","1.1.10","1.1.11","1.2.0-beta1","1.2.0-beta2","1.2.0-beta4","1.2.0-beta5","1.2.0-beta6","1.3.0-beta1","1.3.0-beta2","1.3.0-beta3","1.3.0-beta4","1.3.0-beta5","1.3.0-beta6","1.3.0-beta7","1.3.0-beta8","1.3.0-beta9","1.3.1-beta1","1.3.1-beta2","1.3.1-beta3","1.3.1-beta4","1.3.1-beta5","1.3.1-beta6","1.3.1-beta7","1.3.1-beta8","1.3.1-beta9","1.3.2-beta1","1.3.2-beta2","1.3.2-beta3","1.3.2-beta4","1.3.2-beta5","1.3.2-beta6","1.3.2-beta7","1.3.2-beta8","1.3.2-beta9","1.3.3-beta1","1.3.3-beta2","1.3.4","1.3.5","1.3.6","1.3.7","1.4.0-beta1","1.4.0-beta2","1.4.0-beta3","1.4.0-beta4","1.4.0-beta5","1.4.0-beta6","1.4.0-beta7","1.4.0-beta8","1.4.0-beta9","1.4.0-beta10","1.4.1-beta1","1.4.2","1.4.3","1.4.4","1.4.5","1.4.6","1.4.7","1.4.8","1.4.9","1.4.10","1.4.11","1.4.12","1.4.13","1.4.14","1.4.15","1.5.0","1.5.1","1.5.2","1.5.3","1.6.0","1.7.0","1.7.1","1.7.2","1.7.3","1.8.0","1.8.1","1.8.2","1.8.3","1.8.4","1.8.5","1.8.6","1.8.7","1.8.8","1.8.9","1.8.10","1.8.11","1.9.0","1.9.1","1.9.2","1.9.3","1.9.4","1.9.5","1.9.6","1.9.7","1.9.8","1.9.9","1.9.10","1.9.11","1.9.12","1.9.13","1.10.0","1.10.1","1.10.2","1.10.3","1.10.4","1.10.5","1.11.0","1.12.0","1.12.1","1.12.2","2.0.0-beta","1.12.3","1.12.4","1.12.5","1.12.6","1.12.7","1.12.8","1.12.9","2.0.1-beta","2.0.2-beta","1.12.10","1.12.11","2.0.4-beta","1.12.12","2.0.5-beta","2.0.6-beta","2.0.7-beta","1.12.13","2.1.0-beta.0","2.1.0-beta.1","2.1.0-beta.2","1.12.14","2.1.0-beta.3","2.1.0-beta.4","2.1.0-beta.5","1.12.15","1.13.0","2.1.0-beta.6","2.1.0-beta.7","1.13.1","2.1.0-beta.8","2.1.0-beta.9","2.1.0-beta.10","2.1.0-beta.11","2.1.0-beta.12","2.1.0-beta.13","2.1.0-beta.14","2.1.0-beta.15","2.1.0-beta.16","2.1.0-beta.17","2.1.0-beta.18","2.1.0-beta.19","2.1.0-beta.20","2.1.0-beta.21","1.13.2","2.1.0-beta.22","2.1.0-beta.23","2.1.0-beta.24","2.1.0-beta.25","1.13.3","2.1.0-beta.26","2.1.0-beta.27","1.14.0","2.1.0-beta.28","2.2.0-rc.0","2.2.0-rc.1","2.2.0-rc.2","2.2.0-rc.3","2.2.0-rc.4","2.2.0-rc.5","2.2.0-rc.6","2.2.0-rc.7","2.2.0-rc.8","2.2.0","2.2.1"]
+889 error     at installTargetsError (/usr/share/npm/lib/cache.js:719:10)
+889 error     at next (/usr/share/npm/lib/cache.js:698:17)
+889 error     at /usr/share/npm/lib/cache.js:675:5
+889 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:142:7)
+889 error     at /usr/lib/nodejs/graceful-fs/polyfills.js:133:7
+889 error     at Object.oncomplete (fs.js:107:15)
+890 error If you need help, you may report this log at:
+890 error     <http://github.com/isaacs/npm/issues>
+890 error or email it to:
+890 error     <npm-@googlegroups.com>
+891 error System Linux 3.16.0-30-generic
+892 error command "/usr/bin/nodejs" "/usr/bin/npm" "install"
+893 error cwd /home/kjs/site/bofh
+894 error node -v v0.10.25
+895 error npm -v 1.3.10
+896 verbose exit [ 1, true ]

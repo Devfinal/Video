@@ -1,0 +1,8 @@
+/.env
+/.htaccess
+/storage/app/public/*
+/storage/framework/cahce/*
+/storage/framework/down
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*

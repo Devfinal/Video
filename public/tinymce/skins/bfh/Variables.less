@@ -1,0 +1,196 @@
+// Variables
+// Syntax: <control>-(<sub control>)-<bg|border|text>-(<state>)-(<extra>);
+// Example: @btn-primary-bg-hover-hlight;
+
+@prefix:                         mce;
+
+// Default font
+@font-family:                    "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-size:                      14px;
+@line-height:                    20px;
+@has-gradients:                  false;
+@has-radius:                     true;
+@has-boxshadow:                  false;
+@has-button-borders:             false;
+
+// Text colors
+@text:                           rgba(255,255,255,0.76);
+@text-inverse:                   #2d3037;
+@text-disabled:                  #aaaaaa;
+@text-shadow:                    0 1px 1px hsla(hue(@text-inverse), saturation(@text-inverse), lightness(@text-inverse), 0.75);
+@text-error:                     #aa0000;
+
+// Button
+@btn-text:                       rgba(255,255,255,0.5);
+@btn-text-shadow:                transparent;
+@btn-border-top:                 transparent;
+@btn-border-right:               transparent;
+@btn-border-bottom:              transparent;
+@btn-border-left:                transparent;
+@btn-caret-border:               @btn-text;
+@btn-text-disabled:              @text-disabled;
+@btn-box-shadow:                 inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+@btn-box-shadow-active:          inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+@btn-box-disabled-opacity:       0.4;
+@btn-bg:                         #2d3037;
+@btn-bg-hlight:                  #2d3037;
+@btn-bg-hover:                   darken(@btn-bg, 5%);
+@btn-bg-hlight-hover:            darken(@btn-bg-hlight, 5%);
+@btn-border-hover:               darken(@btn-bg, 20%);
+@btn-border-active:              darken(@btn-bg, 20%);
+@btn-padding:                    0.25rem 0.5rem;
+
+@btn-primary-bg:                 rgba(243,63,152,0.75);
+@btn-primary-bg-hlight:          rgba(243,63,152,0.75);
+@btn-primary-bg-hover:           darken(@btn-primary-bg, 5%);
+@btn-primary-bg-hover-hlight:    darken(@btn-primary-bg-hlight, 5%);
+@btn-primary-text:               #ffffff;
+@btn-primary-text-shadow:        transparent;
+@btn-primary-border-top:         mix(@btn-border-top, @btn-primary-bg, 50%);
+@btn-primary-border-right:       mix(@btn-border-right, @btn-primary-bg, 50%);
+@btn-primary-border-bottom:      mix(@btn-border-bottom, @btn-primary-bg, 50%);
+@btn-primary-border-left:        mix(@btn-border-left, @btn-primary-bg, 50%);
+@btn-primary-border:             transparent;
+@btn-primary-border-hover:       transparent;
+
+// Button group
+@btn-group-border-width:         1px;
+
+// Menu
+@menuitem-text:                  rgba(255,255,255,0.5);
+@menu-bg:                        #24262c;
+@menu-margin:                    -1px 0 0;
+@menu-border:                    rgba(0,0,0,0.15);
+@menubar-border:                 mix(@panel-border, @panel-bg, 60%);
+@menuitem-text-inverse:          #2d3037;
+@menubar-bg-active:              darken(@btn-bg, 10%);
+@menuitem-bg-hover:              #0081C2;
+@menuitem-bg-selected:           rgba(243,63,152,0.75);
+@menuitem-bg-selected-hlight:    rgba(243,63,152,0.75);
+@menuitem-bg-disabled:           #CCC;
+@menuitem-caret:                 @menuitem-text;
+@menuitem-caret-selected:        @menuitem-text-inverse;
+@menuitem-separator-top:         rgba(0,0,0,0.15);
+@menuitem-separator-bottom:      rgba(0,0,0,0.15);
+@menuitem-bg-active:             #282b31;
+@menuitem-text-active:           rgba(255,255,255,0.75);
+@menuitem-preview-border-active: rgba(243,63,152,0.75);
+@menubar-menubtn-text:           rgba(255,255,255,0.5);
+
+// Panel
+@panel-border:                   rgba(0,0,0,0.15);
+@panel-bg:                       #1b1c21;
+@panel-bg-hlight:                #1b1c21;
+
+// Tabs
+@tab-border:                     rgba(0,0,0,0.15);
+@tab-bg:                         #2d3037;
+@tab-bg-hover:                   #24262c;
+@tab-bg-active:                  #1b1c21;
+@tabs-bg:						 #1b1c21;
+
+// Tooltip
+@tooltip-bg:                     #000;
+@tooltip-text:                   white;
+@tooltip-font-size:              11px;
+
+// Notification
+@notification-font-size:         14px;
+@notification-bg:                #2d3037;
+@notification-border:            rgba(0,0,0,0.15);
+@notification-text:              rgba(255,255,255,0.5);
+@notification-success-bg:        #2d3037;
+@notification-success-border:    rgba(0,0,0,0.15);
+@notification-success-text:      #5cb85c;
+@notification-info-bg:           #2d3037;
+@notification-info-border:       rgba(0,0,0,0.15);
+@notification-info-text:         #5bc0de;
+@notification-warning-bg:        #2d3037;
+@notification-warning-border:    rgba(0,0,0,0.15);
+@notification-warning-text:      #f0ad4e;
+@notification-error-bg:          #2d3037;
+@notification-error-border:      rgba(0,0,0,0.15);
+@notification-error-text:        #d9534f;
+
+// Window
+@window-border:                  rgba(0,0,0,0.15);
+@window-head-border:             @window-border;
+@window-head-close:              mix(@text, @window-bg, 60%);
+@window-head-close-hover:        mix(@text, @window-bg, 40%);
+@window-foot-border:             @window-border;
+@window-foot-bg:                 @window-bg;
+@window-fullscreen-bg:           #FFF;
+@window-modalblock-bg:           #000;
+@window-modalblock-opacity:      0.3;
+@window-box-shadow:              0 3px 7px rgba(0, 0, 0, 0.3);
+@window-bg:                      #1b1c21;
+@window-title-font-size:         20px;
+
+// Popover
+@popover-bg:                     @window-bg;
+@popover-arrow-width:            10px;
+@popover-arrow:                  @window-bg;
+@popover-arrow-outer-width:      @popover-arrow-width + 1;
+@popover-arrow-outer:            rgba(0, 0, 0, 0.25);
+
+// Floatpanel
+@floatpanel-box-shadow:          0 5px 10px rgba(0, 0, 0, .2);
+
+// Checkbox
+@checkbox-bg:                    @btn-bg;
+@checkbox-bg-hlight:             @btn-bg-hlight;
+@checkbox-box-shadow:            inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+@checkbox-border:                rgba(0,0,0,0.15);
+@checkbox-border-focus:          rgba(243,63,152,0.75);
+
+// Path
+@path-text:                      @text;
+@path-bg-focus:                  #666;
+@path-text-focus:                #fff;
+
+// Textbox
+@textbox-text-placeholder:       #aaa;
+@textbox-box-shadow:             inset 0 1px 1px rgba(0, 0, 0, 0.075);
+@textbox-bg:                     #2d3037;
+@textbox-border:                 rgba(0,0,0,0.15);
+@textbox-border-focus:           rgba(243,63,152,0.75);
+
+// Selectbox
+@selectbox-bg:                   @textbox-bg;
+@selectbox-border:               @textbox-border;
+
+// Throbber
+@throbber-bg:                    #fff url('img/loader.gif') no-repeat center center;
+
+// Combobox
+@combobox-border:                @textbox-border;
+
+// Colorpicker
+@colorpicker-border:             @textbox-border;
+@colorpicker-hue-bg:             #fff;
+@colorpicker-hue-border:         #333;
+
+// Grid
+@grid-bg-active:                 @menuitem-bg-active;
+@grid-border-active:             rgba(243,63,152,0.75);
+@grid-border:                    rgba(0,0,0,0.15);
+
+// Misc
+@colorbtn-backcolor-bg:          rgba(0,0,0,0.15);
+@iframe-border:                  @panel-border;
+
+// Slider
+@slider-border:                  rgba(0,0,0,0.15);
+@slider-bg:                      #2d3037;
+@slider-handle-border:           rgba(0,0,0,0.15);
+@slider-handle-bg:               rgba(243,63,152,0.75);
+
+// Progress
+@progress-border:                rgba(0,0,0,0.15);
+@progress-bar-bg:                #2d3037;
+@progress-bar-bg-hlight:         rgba(243,63,152,0.75);
+@progress-text:                  rgba(255,255,255,0.75);
+@progress-text-shadow:           transparent;
+
+// Flow layout
+@flow-layout-spacing:            2px;

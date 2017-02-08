@@ -1,0 +1,8 @@
+@import "settings/colors";
+@import "settings/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap-reboot";
+
+body {
+    margin: $spacer;
+    background-color: $body-bg;
+}

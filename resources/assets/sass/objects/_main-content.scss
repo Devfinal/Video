@@ -1,0 +1,22 @@
+.main-content {
+    //flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .4);
+    padding: $spacer;
+    overflow: hidden;
+    max-width: 100%;
+
+    .stamp {
+        @include media-breakpoint-up(sm) {
+            position: absolute;
+
+            &-left {
+                left: 0;
+            }
+
+            &-right {
+                right: 0;
+            }
+        }
+    }
+}

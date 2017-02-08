@@ -1,0 +1,28 @@
+.navbar-horizontal {
+    border-bottom: $card-border-width solid $card-border-color;
+    height: $navbar-height;
+    margin-left: 0;
+    transform: translateY(-$navbar-height);
+    transition: margin-left $transition-duration $transition-timing, transform $transition-duration $transition-timing;
+
+    .navbar-toggler {
+        border: none;
+        cursor: pointer;
+    }
+
+    .navbar-visible & {
+        transform: translateY(0);
+    }
+
+    .sidebar-visible & {
+        @include media-breakpoint-up(sm) {
+            margin-left: $sidebar-width;
+        }
+    }
+
+    .sidebar-visible.sidebar-collapsed & {
+        @include media-breakpoint-up(sm) {
+            margin-left: $sidebar-collapsed-width;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.main-content {
+    margin-left: 0;
+    margin-top: 0;
+    padding: $spacer;
+    transition: margin $transition-duration $transition-timing, opacity $transition-duration $transition-timing;
+    opacity: 0;
+    overflow-y: auto;
+    max-height: calc(100% - #{$navbar-height});
+
+    @include media-breakpoint-down(sm) {
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .main-content-visible & {
+        opacity: 1;
+    }
+
+    .navbar-visible & {
+        margin-top: $navbar-height;
+    }
+
+    .sidebar-visible & {
+        @include media-breakpoint-up(sm) {
+            margin-left: $sidebar-width;
+        }
+    }
+
+    .sidebar-visible.sidebar-collapsed & {
+        @include media-breakpoint-up(sm) {
+            margin-left: $sidebar-collapsed-width;
+        }
+    }
+}

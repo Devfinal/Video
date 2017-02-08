@@ -1,0 +1,114 @@
+.registration-form {
+  .subscription-plans {
+    padding: ($spacer * 4) $spacer;
+
+    @include media-breakpoint-up(xl) {
+      padding-left: $spacer * 8;
+      padding-right: $spacer * 4;
+    }
+
+    .list-group {
+      .list-group-item {
+        padding: 0;
+
+        &:first-child {
+          border-top: 0;
+        }
+
+        &:last-child {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    .form-check-label {
+      display: block;
+      padding: ($spacer * 2) ($spacer * 2) ($spacer * 2) ($spacer * 6);
+    }
+
+    .form-check-input {
+      margin: 0;
+      padding: 0;
+      left: $spacer * 2;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &:checked + .form-check-label {
+        background-color: $gray;
+        color: $gray-lighter;
+      }
+    }
+
+    .subscription-title {
+      font-size: $font-size-h4;
+      margin-bottom: 0;
+    }
+
+    .subscription-description {
+      display: block;
+
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+      }
+    }
+
+    .subscription-price {
+      font-size: $font-size-h3;
+      margin-top: .25em;
+
+      @include media-breakpoint-up(sm) {
+        margin-top: $spacer;
+        margin-right: 35%;
+      }
+
+      @include media-breakpoint-up(md) {
+        margin-top: .64rem;
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-top: $spacer / 3;
+        font-size: 2.5em;
+      }
+    }
+
+    .subscription-savings {
+      display: block;
+      background-color: $brand-primary;
+      padding: .25em;
+      height: 30px;
+      transform: translateX(1em);
+      text-align: center;
+
+      &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -30px;
+        width: 0;
+        height: 0;
+        border: solid 15px;
+        border-color: transparent $brand-primary transparent transparent;
+      }
+
+      @include media-breakpoint-up(sm) {
+        display: inline-block;
+        padding: 1em;
+        height: 50px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+
+        &:after {
+          border-width: 25px;
+          left: -50px;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+      }
+    }
+  }
+}

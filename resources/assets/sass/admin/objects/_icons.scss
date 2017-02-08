@@ -1,0 +1,22 @@
+.icon {
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
+}
+
+.navbar .has-icon {
+    align-items: center;
+    display: flex;
+
+    .icon {
+        flex: 0 0 20px;
+        margin-right: .75rem;
+        height: 20px;
+        width: 20px;
+        transition: margin-right $transition-duration $transition-timing;
+
+        .sidebar-collapsed & {
+            margin-right: 2em;
+        }
+    }
+}

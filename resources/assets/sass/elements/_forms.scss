@@ -1,0 +1,9 @@
+.custom-control.custom-checkbox input:not(:checked) + .custom-control-indicator {
+    background-color: transparentize($gray, .9);
+    border: solid 1px transparentize($gray, .8);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px $input-bg inset;
+    -webkit-text-fill-color: $gray;
+}

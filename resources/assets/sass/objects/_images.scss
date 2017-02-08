@@ -1,0 +1,200 @@
+figure {
+  position: relative;
+  background-color: $brand-inverse;
+  width: 100%;
+  height: 100%;
+
+  &.has-ratio {
+    height: 0;
+    padding-bottom: 100%;
+  }
+
+  img, .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .has-ratio & {
+      backgorund-size: cover;
+    }
+  }
+}
+
+.gallery {
+  background-color: $brand-inverse;
+  padding: $spacer;
+
+  .item {
+    height: 16em;
+    text-align: center;
+
+    &:not(:first-child) {
+      display: none;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 32em;
+    }
+
+    img, .image, video {
+      height: 16em;
+
+      @include media-breakpoint-up(md) {
+        height: 32em;
+      }
+    }
+  }
+
+  &--botm {
+    padding: 0;
+
+    .item {
+      height: auto;
+
+      img, .image {
+        height: auto;
+      }
+    }
+
+    .media-left {
+      width: 61%;
+      max-width: 61%;
+
+      .play-icon {
+        font-size: 3em;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 4em;
+        }
+
+        @include media-breakpoint-up(md) {
+          font-size: 5em;
+        }
+
+        @include media-breakpoint-up(lg) {
+          font-size: 6em;
+        }
+      }
+    }
+
+    .media-object {
+      width: 100%;
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .media-body {
+      width: 39%;
+      max-width: 39%;
+
+      img, .image {
+        opacity: .76;
+      }
+
+      .crown {
+        width: 30%;
+        height: auto;
+        margin-bottom: 5px;
+
+        @include media-breakpoint-up(lg) {
+          margin-bottom: 7px;
+        }
+      }
+
+      .crown-bottom {
+        width: 65%;
+        height: auto;
+
+        @include media-breakpoint-up(sm) {
+          margin-top: 2px;
+        }
+
+        @include media-breakpoint-up(lg) {
+          margin-top: 5px;
+        }
+      }
+
+      // typography
+      h1 {
+        font-size: 12px;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 1.25em;
+        }
+
+        @include media-breakpoint-up(md) {
+          font-size: 1.75em;
+        }
+
+        @include media-breakpoint-up(lg) {
+          font-size: 2.25em;
+        }
+
+        @include media-breakpoint-up(xl) {
+          font-size: 2.75em;
+        }
+      }
+
+      h3 {
+        font-size: 10px;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 1em;
+        }
+
+        @include media-breakpoint-up(md) {
+          font-size: 1.5em;
+        }
+
+        @include media-breakpoint-up(lg) {
+          font-size: 2em;
+        }
+
+        @include media-breakpoint-up(xl) {
+          font-size: 2.5em;
+        }
+      }
+
+      p {
+        font-size: 8px;
+
+        @include media-breakpoint-up(sm) {
+          font-size: 10px;
+        }
+
+        @include media-breakpoint-up(md) {
+          font-size: 12px;
+        }
+
+        @include media-breakpoint-up(lg) {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+
+  &--thumbnails {
+    .item {
+      width: 50px;
+      height: 50px;
+
+      img, .image {
+        height: 50px;
+        width: 50px;
+        background-size: cover;
+        opacity: .5;
+      }
+    }
+
+    .owl-item.synced {
+      img, .image {
+        opacity: 1;
+      }
+    }
+  }
+}
